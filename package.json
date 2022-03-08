@@ -1,0 +1,10 @@
+{
+  "name": "area-data",
+  "version": "1.0.0",
+  "description": "微信省市区数据",
+  "author": "copofe <me@shinji.me>",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}

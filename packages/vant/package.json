@@ -1,0 +1,10 @@
+{
+  "name": "@copofe/vant-area-data",
+  "version": "1.0.0",
+  "description": "微信省市区数据, vant 组件格式",
+  "author": "copofe <me@shinji.me>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
