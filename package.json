@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "微信省市区数据",
   "author": "copofe <me@shinji.me>",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "type": "module",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^4.0.0"
