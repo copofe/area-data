@@ -1406,6 +1406,8 @@ export default [
           { label: '余杭区', value: 330110 },
           { label: '富阳区', value: 330111 },
           { label: '临安区', value: 330112 },
+          { label: '临平区', value: 330113 },
+          { label: '钱塘区', value: 330114 },
           { label: '桐庐县', value: 330122 },
           { label: '淳安县', value: 330127 },
           { label: '建德市', value: 330182 },
