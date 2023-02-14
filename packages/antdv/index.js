@@ -1283,6 +1283,9 @@ export default [
           { label: '张家港市', value: 320582 },
           { label: '昆山市', value: 320583 },
           { label: '太仓市', value: 320585 },
+          { label: '苏州新区', value: 320586 },
+          { label: '工业园区', value: 320587 },
+          { label: '高新区', value: 320588 },
         ],
       },
       {
