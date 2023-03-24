@@ -2182,6 +2182,7 @@ export default [
           { label: '奎文区', value: 370705 },
           { label: '临朐县', value: 370724 },
           { label: '昌乐县', value: 370725 },
+          { label: '潍坊滨海经济技术开发区', value: 370772 },
           { label: '青州市', value: 370781 },
           { label: '诸城市', value: 370782 },
           { label: '寿光市', value: 370783 },
