@@ -1,6 +1,6 @@
 {
   "name": "@copofe/antdv-area-data",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "微信省市区数据, ant-design-vue 组件格式",
   "author": "copofe <me@shinji.me>",
   "type": "module",
