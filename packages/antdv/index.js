@@ -2163,6 +2163,8 @@ export default [
           { label: '牟平区', value: 370612 },
           { label: '莱山区', value: 370613 },
           { label: '长岛县', value: 370634 },
+          { label: '高新技术产业开发区', value: 370671 },
+          { label: '经济技术开发区', value: 370672 },
           { label: '龙口市', value: 370681 },
           { label: '莱阳市', value: 370682 },
           { label: '莱州市', value: 370683 },
