@@ -1,5 +1,7 @@
 # 省市区数据
 
+数据来源：[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
+
 ## 数据包
 
 - @copofe/vant-area-data
@@ -18,4 +20,4 @@
 
 - @copofe/area-data
 
-  新版数据包，数据来源[Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
+  推荐使用
