@@ -1,7 +1,7 @@
 {
   "name": "@copofe/area-data",
   "version": "1.0.5",
-  "description": "市区数据",
+  "description": "省市区数据",
   "author": "copofe <me@shinji.me>",
   "type": "module",
   "license": "ISC",
