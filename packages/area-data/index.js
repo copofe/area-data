@@ -4,7 +4,7 @@ export default [
     value: 110000,
     children: [
       {
-        label: '北京市',
+        label: '市辖区',
         value: 110100,
         children: [
           { label: '东城区', value: 110101 },
@@ -22,17 +22,17 @@ export default [
           { label: '怀柔区', value: 110116 },
           { label: '平谷区', value: 110117 },
           { label: '密云区', value: 110118 },
-          { label: '延庆区', value: 110119 },
-        ],
-      },
-    ],
+          { label: '延庆区', value: 110119 }
+        ]
+      }
+    ]
   },
   {
     label: '天津市',
     value: 120000,
     children: [
       {
-        label: '天津市',
+        label: '市辖区',
         value: 120100,
         children: [
           { label: '和平区', value: 120101 },
@@ -50,10 +50,10 @@ export default [
           { label: '滨海新区', value: 120116 },
           { label: '宁河区', value: 120117 },
           { label: '静海区', value: 120118 },
-          { label: '蓟州区', value: 120119 },
-        ],
-      },
-    ],
+          { label: '蓟州区', value: 120119 }
+        ]
+      }
+    ]
   },
   {
     label: '河北省',
@@ -82,10 +82,12 @@ export default [
           { label: '平山县', value: 130131 },
           { label: '元氏县', value: 130132 },
           { label: '赵县', value: 130133 },
+          { label: '石家庄高新技术产业开发区', value: 130171 },
+          { label: '石家庄循环化工园区', value: 130172 },
           { label: '辛集市', value: 130181 },
           { label: '晋州市', value: 130183 },
-          { label: '新乐市', value: 130184 },
-        ],
+          { label: '新乐市', value: 130184 }
+        ]
       },
       {
         label: '唐山市',
@@ -102,10 +104,14 @@ export default [
           { label: '乐亭县', value: 130225 },
           { label: '迁西县', value: 130227 },
           { label: '玉田县', value: 130229 },
+          { label: '河北唐山芦台经济开发区', value: 130271 },
+          { label: '唐山市汉沽管理区', value: 130272 },
+          { label: '唐山高新技术产业开发区', value: 130273 },
+          { label: '河北唐山海港经济开发区', value: 130274 },
           { label: '遵化市', value: 130281 },
           { label: '迁安市', value: 130283 },
-          { label: '滦州市', value: 130284 },
-        ],
+          { label: '滦州市', value: 130284 }
+        ]
       },
       {
         label: '秦皇岛市',
@@ -118,7 +124,9 @@ export default [
           { label: '青龙满族自治县', value: 130321 },
           { label: '昌黎县', value: 130322 },
           { label: '卢龙县', value: 130324 },
-        ],
+          { label: '秦皇岛市经济技术开发区', value: 130371 },
+          { label: '北戴河新区', value: 130372 }
+        ]
       },
       {
         label: '邯郸市',
@@ -141,22 +149,23 @@ export default [
           { label: '馆陶县', value: 130433 },
           { label: '魏县', value: 130434 },
           { label: '曲周县', value: 130435 },
-          { label: '武安市', value: 130481 },
-        ],
+          { label: '邯郸经济技术开发区', value: 130471 },
+          { label: '邯郸冀南新区', value: 130473 },
+          { label: '武安市', value: 130481 }
+        ]
       },
       {
         label: '邢台市',
         value: 130500,
         children: [
-          { label: '桥东区', value: 130502 },
-          { label: '桥西区', value: 130503 },
-          { label: '邢台县', value: 130521 },
+          { label: '襄都区', value: 130502 },
+          { label: '信都区', value: 130503 },
+          { label: '任泽区', value: 130505 },
+          { label: '南和区', value: 130506 },
           { label: '临城县', value: 130522 },
           { label: '内丘县', value: 130523 },
           { label: '柏乡县', value: 130524 },
           { label: '隆尧县', value: 130525 },
-          { label: '任县', value: 130526 },
-          { label: '南和县', value: 130527 },
           { label: '宁晋县', value: 130528 },
           { label: '巨鹿县', value: 130529 },
           { label: '新河县', value: 130530 },
@@ -165,9 +174,10 @@ export default [
           { label: '威县', value: 130533 },
           { label: '清河县', value: 130534 },
           { label: '临西县', value: 130535 },
+          { label: '河北邢台经济开发区', value: 130571 },
           { label: '南宫市', value: 130581 },
-          { label: '沙河市', value: 130582 },
-        ],
+          { label: '沙河市', value: 130582 }
+        ]
       },
       {
         label: '保定市',
@@ -193,11 +203,13 @@ export default [
           { label: '顺平县', value: 130636 },
           { label: '博野县', value: 130637 },
           { label: '雄县', value: 130638 },
+          { label: '保定高新技术产业开发区', value: 130671 },
+          { label: '保定白沟新城', value: 130672 },
           { label: '涿州市', value: 130681 },
           { label: '定州市', value: 130682 },
           { label: '安国市', value: 130683 },
-          { label: '高碑店市', value: 130684 },
-        ],
+          { label: '高碑店市', value: 130684 }
+        ]
       },
       {
         label: '张家口市',
@@ -219,7 +231,10 @@ export default [
           { label: '怀来县', value: 130730 },
           { label: '涿鹿县', value: 130731 },
           { label: '赤城县', value: 130732 },
-        ],
+          { label: '张家口经济开发区', value: 130771 },
+          { label: '张家口市察北管理区', value: 130772 },
+          { label: '张家口市塞北管理区', value: 130773 }
+        ]
       },
       {
         label: '承德市',
@@ -235,8 +250,9 @@ export default [
           { label: '丰宁满族自治县', value: 130826 },
           { label: '宽城满族自治县', value: 130827 },
           { label: '围场满族蒙古族自治县', value: 130828 },
-          { label: '平泉市', value: 130881 },
-        ],
+          { label: '承德高新技术产业开发区', value: 130871 },
+          { label: '平泉市', value: 130881 }
+        ]
       },
       {
         label: '沧州市',
@@ -254,11 +270,14 @@ export default [
           { label: '吴桥县', value: 130928 },
           { label: '献县', value: 130929 },
           { label: '孟村回族自治县', value: 130930 },
+          { label: '河北沧州经济开发区', value: 130971 },
+          { label: '沧州高新技术产业开发区', value: 130972 },
+          { label: '沧州渤海新区', value: 130973 },
           { label: '泊头市', value: 130981 },
           { label: '任丘市', value: 130982 },
           { label: '黄骅市', value: 130983 },
-          { label: '河间市', value: 130984 },
-        ],
+          { label: '河间市', value: 130984 }
+        ]
       },
       {
         label: '廊坊市',
@@ -272,9 +291,10 @@ export default [
           { label: '大城县', value: 131025 },
           { label: '文安县', value: 131026 },
           { label: '大厂回族自治县', value: 131028 },
+          { label: '廊坊经济技术开发区', value: 131071 },
           { label: '霸州市', value: 131081 },
-          { label: '三河市', value: 131082 },
-        ],
+          { label: '三河市', value: 131082 }
+        ]
       },
       {
         label: '衡水市',
@@ -290,10 +310,12 @@ export default [
           { label: '故城县', value: 131126 },
           { label: '景县', value: 131127 },
           { label: '阜城县', value: 131128 },
-          { label: '深州市', value: 131182 },
-        ],
-      },
-    ],
+          { label: '河北衡水高新技术产业开发区', value: 131171 },
+          { label: '衡水滨湖新区', value: 131172 },
+          { label: '深州市', value: 131182 }
+        ]
+      }
+    ]
   },
   {
     label: '山西省',
@@ -312,8 +334,9 @@ export default [
           { label: '清徐县', value: 140121 },
           { label: '阳曲县', value: 140122 },
           { label: '娄烦县', value: 140123 },
-          { label: '古交市', value: 140181 },
-        ],
+          { label: '山西转型综合改革示范区', value: 140171 },
+          { label: '古交市', value: 140181 }
+        ]
       },
       {
         label: '大同市',
@@ -329,7 +352,8 @@ export default [
           { label: '灵丘县', value: 140224 },
           { label: '浑源县', value: 140225 },
           { label: '左云县', value: 140226 },
-        ],
+          { label: '山西大同经济开发区', value: 140271 }
+        ]
       },
       {
         label: '阳泉市',
@@ -339,8 +363,8 @@ export default [
           { label: '矿区', value: 140303 },
           { label: '郊区', value: 140311 },
           { label: '平定县', value: 140321 },
-          { label: '盂县', value: 140322 },
-        ],
+          { label: '盂县', value: 140322 }
+        ]
       },
       {
         label: '长治市',
@@ -358,7 +382,8 @@ export default [
           { label: '武乡县', value: 140429 },
           { label: '沁县', value: 140430 },
           { label: '沁源县', value: 140431 },
-        ],
+          { label: '山西长治高新技术产业园区', value: 140471 }
+        ]
       },
       {
         label: '晋城市',
@@ -369,8 +394,8 @@ export default [
           { label: '阳城县', value: 140522 },
           { label: '陵川县', value: 140524 },
           { label: '泽州县', value: 140525 },
-          { label: '高平市', value: 140581 },
-        ],
+          { label: '高平市', value: 140581 }
+        ]
       },
       {
         label: '朔州市',
@@ -381,8 +406,9 @@ export default [
           { label: '山阴县', value: 140621 },
           { label: '应县', value: 140622 },
           { label: '右玉县', value: 140623 },
-          { label: '怀仁市', value: 140681 },
-        ],
+          { label: '山西朔州经济开发区', value: 140671 },
+          { label: '怀仁市', value: 140681 }
+        ]
       },
       {
         label: '晋中市',
@@ -398,8 +424,8 @@ export default [
           { label: '祁县', value: 140727 },
           { label: '平遥县', value: 140728 },
           { label: '灵石县', value: 140729 },
-          { label: '介休市', value: 140781 },
-        ],
+          { label: '介休市', value: 140781 }
+        ]
       },
       {
         label: '运城市',
@@ -417,8 +443,8 @@ export default [
           { label: '平陆县', value: 140829 },
           { label: '芮城县', value: 140830 },
           { label: '永济市', value: 140881 },
-          { label: '河津市', value: 140882 },
-        ],
+          { label: '河津市', value: 140882 }
+        ]
       },
       {
         label: '忻州市',
@@ -437,8 +463,9 @@ export default [
           { label: '河曲县', value: 140930 },
           { label: '保德县', value: 140931 },
           { label: '偏关县', value: 140932 },
-          { label: '原平市', value: 140981 },
-        ],
+          { label: '五台山风景名胜区', value: 140971 },
+          { label: '原平市', value: 140981 }
+        ]
       },
       {
         label: '临汾市',
@@ -460,8 +487,8 @@ export default [
           { label: '蒲县', value: 141033 },
           { label: '汾西县', value: 141034 },
           { label: '侯马市', value: 141081 },
-          { label: '霍州市', value: 141082 },
-        ],
+          { label: '霍州市', value: 141082 }
+        ]
       },
       {
         label: '吕梁市',
@@ -479,10 +506,10 @@ export default [
           { label: '中阳县', value: 141129 },
           { label: '交口县', value: 141130 },
           { label: '孝义市', value: 141181 },
-          { label: '汾阳市', value: 141182 },
-        ],
-      },
-    ],
+          { label: '汾阳市', value: 141182 }
+        ]
+      }
+    ]
   },
   {
     label: '内蒙古自治区',
@@ -501,7 +528,8 @@ export default [
           { label: '和林格尔县', value: 150123 },
           { label: '清水河县', value: 150124 },
           { label: '武川县', value: 150125 },
-        ],
+          { label: '呼和浩特经济技术开发区', value: 150172 }
+        ]
       },
       {
         label: '包头市',
@@ -516,7 +544,8 @@ export default [
           { label: '土默特右旗', value: 150221 },
           { label: '固阳县', value: 150222 },
           { label: '达尔罕茂明安联合旗', value: 150223 },
-        ],
+          { label: '包头稀土高新技术产业开发区', value: 150271 }
+        ]
       },
       {
         label: '乌海市',
@@ -524,8 +553,8 @@ export default [
         children: [
           { label: '海勃湾区', value: 150302 },
           { label: '海南区', value: 150303 },
-          { label: '乌达区', value: 150304 },
-        ],
+          { label: '乌达区', value: 150304 }
+        ]
       },
       {
         label: '赤峰市',
@@ -542,8 +571,8 @@ export default [
           { label: '翁牛特旗', value: 150426 },
           { label: '喀喇沁旗', value: 150428 },
           { label: '宁城县', value: 150429 },
-          { label: '敖汉旗', value: 150430 },
-        ],
+          { label: '敖汉旗', value: 150430 }
+        ]
       },
       {
         label: '通辽市',
@@ -556,8 +585,9 @@ export default [
           { label: '库伦旗', value: 150524 },
           { label: '奈曼旗', value: 150525 },
           { label: '扎鲁特旗', value: 150526 },
-          { label: '霍林郭勒市', value: 150581 },
-        ],
+          { label: '通辽经济技术开发区', value: 150571 },
+          { label: '霍林郭勒市', value: 150581 }
+        ]
       },
       {
         label: '鄂尔多斯市',
@@ -571,8 +601,8 @@ export default [
           { label: '鄂托克旗', value: 150624 },
           { label: '杭锦旗', value: 150625 },
           { label: '乌审旗', value: 150626 },
-          { label: '伊金霍洛旗', value: 150627 },
-        ],
+          { label: '伊金霍洛旗', value: 150627 }
+        ]
       },
       {
         label: '呼伦贝尔市',
@@ -591,8 +621,8 @@ export default [
           { label: '牙克石市', value: 150782 },
           { label: '扎兰屯市', value: 150783 },
           { label: '额尔古纳市', value: 150784 },
-          { label: '根河市', value: 150785 },
-        ],
+          { label: '根河市', value: 150785 }
+        ]
       },
       {
         label: '巴彦淖尔市',
@@ -604,8 +634,8 @@ export default [
           { label: '乌拉特前旗', value: 150823 },
           { label: '乌拉特中旗', value: 150824 },
           { label: '乌拉特后旗', value: 150825 },
-          { label: '杭锦后旗', value: 150826 },
-        ],
+          { label: '杭锦后旗', value: 150826 }
+        ]
       },
       {
         label: '乌兰察布市',
@@ -621,8 +651,8 @@ export default [
           { label: '察哈尔右翼中旗', value: 150927 },
           { label: '察哈尔右翼后旗', value: 150928 },
           { label: '四子王旗', value: 150929 },
-          { label: '丰镇市', value: 150981 },
-        ],
+          { label: '丰镇市', value: 150981 }
+        ]
       },
       {
         label: '兴安盟',
@@ -633,8 +663,8 @@ export default [
           { label: '科尔沁右翼前旗', value: 152221 },
           { label: '科尔沁右翼中旗', value: 152222 },
           { label: '扎赉特旗', value: 152223 },
-          { label: '突泉县', value: 152224 },
-        ],
+          { label: '突泉县', value: 152224 }
+        ]
       },
       {
         label: '锡林郭勒盟',
@@ -652,7 +682,8 @@ export default [
           { label: '正镶白旗', value: 152529 },
           { label: '正蓝旗', value: 152530 },
           { label: '多伦县', value: 152531 },
-        ],
+          { label: '乌拉盖管委会', value: 152571 }
+        ]
       },
       {
         label: '阿拉善盟',
@@ -661,9 +692,10 @@ export default [
           { label: '阿拉善左旗', value: 152921 },
           { label: '阿拉善右旗', value: 152922 },
           { label: '额济纳旗', value: 152923 },
-        ],
-      },
-    ],
+          { label: '内蒙古阿拉善高新技术产业开发区', value: 152971 }
+        ]
+      }
+    ]
   },
   {
     label: '辽宁省',
@@ -685,8 +717,8 @@ export default [
           { label: '辽中区', value: 210115 },
           { label: '康平县', value: 210123 },
           { label: '法库县', value: 210124 },
-          { label: '新民市', value: 210181 },
-        ],
+          { label: '新民市', value: 210181 }
+        ]
       },
       {
         label: '大连市',
@@ -701,8 +733,8 @@ export default [
           { label: '普兰店区', value: 210214 },
           { label: '长海县', value: 210224 },
           { label: '瓦房店市', value: 210281 },
-          { label: '庄河市', value: 210283 },
-        ],
+          { label: '庄河市', value: 210283 }
+        ]
       },
       {
         label: '鞍山市',
@@ -714,8 +746,8 @@ export default [
           { label: '千山区', value: 210311 },
           { label: '台安县', value: 210321 },
           { label: '岫岩满族自治县', value: 210323 },
-          { label: '海城市', value: 210381 },
-        ],
+          { label: '海城市', value: 210381 }
+        ]
       },
       {
         label: '抚顺市',
@@ -727,8 +759,8 @@ export default [
           { label: '顺城区', value: 210411 },
           { label: '抚顺县', value: 210421 },
           { label: '新宾满族自治县', value: 210422 },
-          { label: '清原满族自治县', value: 210423 },
-        ],
+          { label: '清原满族自治县', value: 210423 }
+        ]
       },
       {
         label: '本溪市',
@@ -739,8 +771,8 @@ export default [
           { label: '明山区', value: 210504 },
           { label: '南芬区', value: 210505 },
           { label: '本溪满族自治县', value: 210521 },
-          { label: '桓仁满族自治县', value: 210522 },
-        ],
+          { label: '桓仁满族自治县', value: 210522 }
+        ]
       },
       {
         label: '丹东市',
@@ -751,8 +783,8 @@ export default [
           { label: '振安区', value: 210604 },
           { label: '宽甸满族自治县', value: 210624 },
           { label: '东港市', value: 210681 },
-          { label: '凤城市', value: 210682 },
-        ],
+          { label: '凤城市', value: 210682 }
+        ]
       },
       {
         label: '锦州市',
@@ -764,8 +796,8 @@ export default [
           { label: '黑山县', value: 210726 },
           { label: '义县', value: 210727 },
           { label: '凌海市', value: 210781 },
-          { label: '北镇市', value: 210782 },
-        ],
+          { label: '北镇市', value: 210782 }
+        ]
       },
       {
         label: '营口市',
@@ -776,8 +808,8 @@ export default [
           { label: '鲅鱼圈区', value: 210804 },
           { label: '老边区', value: 210811 },
           { label: '盖州市', value: 210881 },
-          { label: '大石桥市', value: 210882 },
-        ],
+          { label: '大石桥市', value: 210882 }
+        ]
       },
       {
         label: '阜新市',
@@ -789,8 +821,8 @@ export default [
           { label: '清河门区', value: 210905 },
           { label: '细河区', value: 210911 },
           { label: '阜新蒙古族自治县', value: 210921 },
-          { label: '彰武县', value: 210922 },
-        ],
+          { label: '彰武县', value: 210922 }
+        ]
       },
       {
         label: '辽阳市',
@@ -802,8 +834,8 @@ export default [
           { label: '弓长岭区', value: 211005 },
           { label: '太子河区', value: 211011 },
           { label: '辽阳县', value: 211021 },
-          { label: '灯塔市', value: 211081 },
-        ],
+          { label: '灯塔市', value: 211081 }
+        ]
       },
       {
         label: '盘锦市',
@@ -812,8 +844,8 @@ export default [
           { label: '双台子区', value: 211102 },
           { label: '兴隆台区', value: 211103 },
           { label: '大洼区', value: 211104 },
-          { label: '盘山县', value: 211122 },
-        ],
+          { label: '盘山县', value: 211122 }
+        ]
       },
       {
         label: '铁岭市',
@@ -825,8 +857,8 @@ export default [
           { label: '西丰县', value: 211223 },
           { label: '昌图县', value: 211224 },
           { label: '调兵山市', value: 211281 },
-          { label: '开原市', value: 211282 },
-        ],
+          { label: '开原市', value: 211282 }
+        ]
       },
       {
         label: '朝阳市',
@@ -838,8 +870,8 @@ export default [
           { label: '建平县', value: 211322 },
           { label: '喀喇沁左翼蒙古族自治县', value: 211324 },
           { label: '北票市', value: 211381 },
-          { label: '凌源市', value: 211382 },
-        ],
+          { label: '凌源市', value: 211382 }
+        ]
       },
       {
         label: '葫芦岛市',
@@ -850,10 +882,10 @@ export default [
           { label: '南票区', value: 211404 },
           { label: '绥中县', value: 211421 },
           { label: '建昌县', value: 211422 },
-          { label: '兴城市', value: 211481 },
-        ],
-      },
-    ],
+          { label: '兴城市', value: 211481 }
+        ]
+      }
+    ]
   },
   {
     label: '吉林省',
@@ -871,9 +903,14 @@ export default [
           { label: '双阳区', value: 220112 },
           { label: '九台区', value: 220113 },
           { label: '农安县', value: 220122 },
+          { label: '长春经济技术开发区', value: 220171 },
+          { label: '长春净月高新技术产业开发区', value: 220172 },
+          { label: '长春高新技术产业开发区', value: 220173 },
+          { label: '长春汽车经济技术开发区', value: 220174 },
           { label: '榆树市', value: 220182 },
           { label: '德惠市', value: 220183 },
-        ],
+          { label: '公主岭市', value: 220184 }
+        ]
       },
       {
         label: '吉林市',
@@ -884,11 +921,14 @@ export default [
           { label: '船营区', value: 220204 },
           { label: '丰满区', value: 220211 },
           { label: '永吉县', value: 220221 },
+          { label: '吉林经济开发区', value: 220271 },
+          { label: '吉林高新技术产业开发区', value: 220272 },
+          { label: '吉林中国新加坡食品区', value: 220273 },
           { label: '蛟河市', value: 220281 },
           { label: '桦甸市', value: 220282 },
           { label: '舒兰市', value: 220283 },
-          { label: '磐石市', value: 220284 },
-        ],
+          { label: '磐石市', value: 220284 }
+        ]
       },
       {
         label: '四平市',
@@ -898,9 +938,8 @@ export default [
           { label: '铁东区', value: 220303 },
           { label: '梨树县', value: 220322 },
           { label: '伊通满族自治县', value: 220323 },
-          { label: '公主岭市', value: 220381 },
-          { label: '双辽市', value: 220382 },
-        ],
+          { label: '双辽市', value: 220382 }
+        ]
       },
       {
         label: '辽源市',
@@ -909,8 +948,8 @@ export default [
           { label: '龙山区', value: 220402 },
           { label: '西安区', value: 220403 },
           { label: '东丰县', value: 220421 },
-          { label: '东辽县', value: 220422 },
-        ],
+          { label: '东辽县', value: 220422 }
+        ]
       },
       {
         label: '通化市',
@@ -922,8 +961,8 @@ export default [
           { label: '辉南县', value: 220523 },
           { label: '柳河县', value: 220524 },
           { label: '梅河口市', value: 220581 },
-          { label: '集安市', value: 220582 },
-        ],
+          { label: '集安市', value: 220582 }
+        ]
       },
       {
         label: '白山市',
@@ -934,8 +973,8 @@ export default [
           { label: '抚松县', value: 220621 },
           { label: '靖宇县', value: 220622 },
           { label: '长白朝鲜族自治县', value: 220623 },
-          { label: '临江市', value: 220681 },
-        ],
+          { label: '临江市', value: 220681 }
+        ]
       },
       {
         label: '松原市',
@@ -945,8 +984,9 @@ export default [
           { label: '前郭尔罗斯蒙古族自治县', value: 220721 },
           { label: '长岭县', value: 220722 },
           { label: '乾安县', value: 220723 },
-          { label: '扶余市', value: 220781 },
-        ],
+          { label: '吉林松原经济开发区', value: 220771 },
+          { label: '扶余市', value: 220781 }
+        ]
       },
       {
         label: '白城市',
@@ -955,9 +995,10 @@ export default [
           { label: '洮北区', value: 220802 },
           { label: '镇赉县', value: 220821 },
           { label: '通榆县', value: 220822 },
+          { label: '吉林白城经济开发区', value: 220871 },
           { label: '洮南市', value: 220881 },
-          { label: '大安市', value: 220882 },
-        ],
+          { label: '大安市', value: 220882 }
+        ]
       },
       {
         label: '延边朝鲜族自治州',
@@ -970,10 +1011,10 @@ export default [
           { label: '龙井市', value: 222405 },
           { label: '和龙市', value: 222406 },
           { label: '汪清县', value: 222424 },
-          { label: '安图县', value: 222426 },
-        ],
-      },
-    ],
+          { label: '安图县', value: 222426 }
+        ]
+      }
+    ]
   },
   {
     label: '黑龙江省',
@@ -1000,8 +1041,8 @@ export default [
           { label: '通河县', value: 230128 },
           { label: '延寿县', value: 230129 },
           { label: '尚志市', value: 230183 },
-          { label: '五常市', value: 230184 },
-        ],
+          { label: '五常市', value: 230184 }
+        ]
       },
       {
         label: '齐齐哈尔市',
@@ -1022,8 +1063,8 @@ export default [
           { label: '克山县', value: 230229 },
           { label: '克东县', value: 230230 },
           { label: '拜泉县', value: 230231 },
-          { label: '讷河市', value: 230281 },
-        ],
+          { label: '讷河市', value: 230281 }
+        ]
       },
       {
         label: '鸡西市',
@@ -1037,8 +1078,8 @@ export default [
           { label: '麻山区', value: 230307 },
           { label: '鸡东县', value: 230321 },
           { label: '虎林市', value: 230381 },
-          { label: '密山市', value: 230382 },
-        ],
+          { label: '密山市', value: 230382 }
+        ]
       },
       {
         label: '鹤岗市',
@@ -1051,8 +1092,8 @@ export default [
           { label: '东山区', value: 230406 },
           { label: '兴山区', value: 230407 },
           { label: '萝北县', value: 230421 },
-          { label: '绥滨县', value: 230422 },
-        ],
+          { label: '绥滨县', value: 230422 }
+        ]
       },
       {
         label: '双鸭山市',
@@ -1065,8 +1106,8 @@ export default [
           { label: '集贤县', value: 230521 },
           { label: '友谊县', value: 230522 },
           { label: '宝清县', value: 230523 },
-          { label: '饶河县', value: 230524 },
-        ],
+          { label: '饶河县', value: 230524 }
+        ]
       },
       {
         label: '大庆市',
@@ -1081,7 +1122,8 @@ export default [
           { label: '肇源县', value: 230622 },
           { label: '林甸县', value: 230623 },
           { label: '杜尔伯特蒙古族自治县', value: 230624 },
-        ],
+          { label: '大庆高新技术产业开发区', value: 230671 }
+        ]
       },
       {
         label: '伊春市',
@@ -1096,8 +1138,8 @@ export default [
           { label: '大箐山县', value: 230725 },
           { label: '南岔县', value: 230726 },
           { label: '金林区', value: 230751 },
-          { label: '铁力市', value: 230781 },
-        ],
+          { label: '铁力市', value: 230781 }
+        ]
       },
       {
         label: '佳木斯市',
@@ -1112,8 +1154,8 @@ export default [
           { label: '汤原县', value: 230828 },
           { label: '同江市', value: 230881 },
           { label: '富锦市', value: 230882 },
-          { label: '抚远市', value: 230883 },
-        ],
+          { label: '抚远市', value: 230883 }
+        ]
       },
       {
         label: '七台河市',
@@ -1122,8 +1164,8 @@ export default [
           { label: '新兴区', value: 230902 },
           { label: '桃山区', value: 230903 },
           { label: '茄子河区', value: 230904 },
-          { label: '勃利县', value: 230921 },
-        ],
+          { label: '勃利县', value: 230921 }
+        ]
       },
       {
         label: '牡丹江市',
@@ -1134,12 +1176,13 @@ export default [
           { label: '爱民区', value: 231004 },
           { label: '西安区', value: 231005 },
           { label: '林口县', value: 231025 },
+          { label: '牡丹江经济技术开发区', value: 231071 },
           { label: '绥芬河市', value: 231081 },
           { label: '海林市', value: 231083 },
           { label: '宁安市', value: 231084 },
           { label: '穆棱市', value: 231085 },
-          { label: '东宁市', value: 231086 },
-        ],
+          { label: '东宁市', value: 231086 }
+        ]
       },
       {
         label: '黑河市',
@@ -1150,8 +1193,8 @@ export default [
           { label: '孙吴县', value: 231124 },
           { label: '北安市', value: 231181 },
           { label: '五大连池市', value: 231182 },
-          { label: '嫩江市', value: 231183 },
-        ],
+          { label: '嫩江市', value: 231183 }
+        ]
       },
       {
         label: '绥化市',
@@ -1166,8 +1209,8 @@ export default [
           { label: '绥棱县', value: 231226 },
           { label: '安达市', value: 231281 },
           { label: '肇东市', value: 231282 },
-          { label: '海伦市', value: 231283 },
-        ],
+          { label: '海伦市', value: 231283 }
+        ]
       },
       {
         label: '大兴安岭地区',
@@ -1176,16 +1219,20 @@ export default [
           { label: '漠河市', value: 232701 },
           { label: '呼玛县', value: 232721 },
           { label: '塔河县', value: 232722 },
-        ],
-      },
-    ],
+          { label: '加格达奇区', value: 232761 },
+          { label: '松岭区', value: 232762 },
+          { label: '新林区', value: 232763 },
+          { label: '呼中区', value: 232764 }
+        ]
+      }
+    ]
   },
   {
     label: '上海市',
     value: 310000,
     children: [
       {
-        label: '上海市',
+        label: '市辖区',
         value: 310100,
         children: [
           { label: '黄浦区', value: 310101 },
@@ -1203,10 +1250,10 @@ export default [
           { label: '松江区', value: 310117 },
           { label: '青浦区', value: 310118 },
           { label: '奉贤区', value: 310120 },
-          { label: '崇明区', value: 310151 },
-        ],
-      },
-    ],
+          { label: '崇明区', value: 310151 }
+        ]
+      }
+    ]
   },
   {
     label: '江苏省',
@@ -1226,8 +1273,8 @@ export default [
           { label: '江宁区', value: 320115 },
           { label: '六合区', value: 320116 },
           { label: '溧水区', value: 320117 },
-          { label: '高淳区', value: 320118 },
-        ],
+          { label: '高淳区', value: 320118 }
+        ]
       },
       {
         label: '无锡市',
@@ -1239,8 +1286,8 @@ export default [
           { label: '梁溪区', value: 320213 },
           { label: '新吴区', value: 320214 },
           { label: '江阴市', value: 320281 },
-          { label: '宜兴市', value: 320282 },
-        ],
+          { label: '宜兴市', value: 320282 }
+        ]
       },
       {
         label: '徐州市',
@@ -1254,9 +1301,10 @@ export default [
           { label: '丰县', value: 320321 },
           { label: '沛县', value: 320322 },
           { label: '睢宁县', value: 320324 },
+          { label: '徐州经济技术开发区', value: 320371 },
           { label: '新沂市', value: 320381 },
-          { label: '邳州市', value: 320382 },
-        ],
+          { label: '邳州市', value: 320382 }
+        ]
       },
       {
         label: '常州市',
@@ -1267,8 +1315,8 @@ export default [
           { label: '新北区', value: 320411 },
           { label: '武进区', value: 320412 },
           { label: '金坛区', value: 320413 },
-          { label: '溧阳市', value: 320481 },
-        ],
+          { label: '溧阳市', value: 320481 }
+        ]
       },
       {
         label: '苏州市',
@@ -1279,28 +1327,26 @@ export default [
           { label: '相城区', value: 320507 },
           { label: '姑苏区', value: 320508 },
           { label: '吴江区', value: 320509 },
+          { label: '苏州工业园区', value: 320571 },
           { label: '常熟市', value: 320581 },
           { label: '张家港市', value: 320582 },
           { label: '昆山市', value: 320583 },
-          { label: '太仓市', value: 320585 },
-          { label: '苏州新区', value: 320586 },
-          { label: '工业园区', value: 320587 },
-          { label: '高新区', value: 320588 },
-        ],
+          { label: '太仓市', value: 320585 }
+        ]
       },
       {
         label: '南通市',
         value: 320600,
         children: [
-          { label: '崇川区', value: 320602 },
-          { label: '港闸区', value: 320611 },
           { label: '通州区', value: 320612 },
+          { label: '崇川区', value: 320613 },
+          { label: '海门区', value: 320614 },
           { label: '如东县', value: 320623 },
+          { label: '南通经济技术开发区', value: 320671 },
           { label: '启东市', value: 320681 },
           { label: '如皋市', value: 320682 },
-          { label: '海门市', value: 320684 },
-          { label: '海安市', value: 320685 },
-        ],
+          { label: '海安市', value: 320685 }
+        ]
       },
       {
         label: '连云港市',
@@ -1312,7 +1358,9 @@ export default [
           { label: '东海县', value: 320722 },
           { label: '灌云县', value: 320723 },
           { label: '灌南县', value: 320724 },
-        ],
+          { label: '连云港经济技术开发区', value: 320771 },
+          { label: '连云港高新技术产业开发区', value: 320772 }
+        ]
       },
       {
         label: '淮安市',
@@ -1325,7 +1373,8 @@ export default [
           { label: '涟水县', value: 320826 },
           { label: '盱眙县', value: 320830 },
           { label: '金湖县', value: 320831 },
-        ],
+          { label: '淮安经济技术开发区', value: 320871 }
+        ]
       },
       {
         label: '盐城市',
@@ -1339,8 +1388,9 @@ export default [
           { label: '阜宁县', value: 320923 },
           { label: '射阳县', value: 320924 },
           { label: '建湖县', value: 320925 },
-          { label: '东台市', value: 320981 },
-        ],
+          { label: '盐城经济技术开发区', value: 320971 },
+          { label: '东台市', value: 320981 }
+        ]
       },
       {
         label: '扬州市',
@@ -1350,9 +1400,10 @@ export default [
           { label: '邗江区', value: 321003 },
           { label: '江都区', value: 321012 },
           { label: '宝应县', value: 321023 },
+          { label: '扬州经济技术开发区', value: 321071 },
           { label: '仪征市', value: 321081 },
-          { label: '高邮市', value: 321084 },
-        ],
+          { label: '高邮市', value: 321084 }
+        ]
       },
       {
         label: '镇江市',
@@ -1361,10 +1412,11 @@ export default [
           { label: '京口区', value: 321102 },
           { label: '润州区', value: 321111 },
           { label: '丹徒区', value: 321112 },
+          { label: '镇江新区', value: 321171 },
           { label: '丹阳市', value: 321181 },
           { label: '扬中市', value: 321182 },
-          { label: '句容市', value: 321183 },
-        ],
+          { label: '句容市', value: 321183 }
+        ]
       },
       {
         label: '泰州市',
@@ -1373,10 +1425,11 @@ export default [
           { label: '海陵区', value: 321202 },
           { label: '高港区', value: 321203 },
           { label: '姜堰区', value: 321204 },
+          { label: '泰州医药高新技术产业开发区', value: 321271 },
           { label: '兴化市', value: 321281 },
           { label: '靖江市', value: 321282 },
-          { label: '泰兴市', value: 321283 },
-        ],
+          { label: '泰兴市', value: 321283 }
+        ]
       },
       {
         label: '宿迁市',
@@ -1387,9 +1440,10 @@ export default [
           { label: '沭阳县', value: 321322 },
           { label: '泗阳县', value: 321323 },
           { label: '泗洪县', value: 321324 },
-        ],
-      },
-    ],
+          { label: '宿迁经济技术开发区', value: 321371 }
+        ]
+      }
+    ]
   },
   {
     label: '浙江省',
@@ -1400,8 +1454,6 @@ export default [
         value: 330100,
         children: [
           { label: '上城区', value: 330102 },
-          { label: '下城区', value: 330103 },
-          { label: '江干区', value: 330104 },
           { label: '拱墅区', value: 330105 },
           { label: '西湖区', value: 330106 },
           { label: '滨江区', value: 330108 },
@@ -1413,8 +1465,8 @@ export default [
           { label: '钱塘区', value: 330114 },
           { label: '桐庐县', value: 330122 },
           { label: '淳安县', value: 330127 },
-          { label: '建德市', value: 330182 },
-        ],
+          { label: '建德市', value: 330182 }
+        ]
       },
       {
         label: '宁波市',
@@ -1429,8 +1481,8 @@ export default [
           { label: '象山县', value: 330225 },
           { label: '宁海县', value: 330226 },
           { label: '余姚市', value: 330281 },
-          { label: '慈溪市', value: 330282 },
-        ],
+          { label: '慈溪市', value: 330282 }
+        ]
       },
       {
         label: '温州市',
@@ -1447,8 +1499,8 @@ export default [
           { label: '泰顺县', value: 330329 },
           { label: '瑞安市', value: 330381 },
           { label: '乐清市', value: 330382 },
-          { label: '龙港市', value: 330383 },
-        ],
+          { label: '龙港市', value: 330383 }
+        ]
       },
       {
         label: '嘉兴市',
@@ -1460,8 +1512,8 @@ export default [
           { label: '海盐县', value: 330424 },
           { label: '海宁市', value: 330481 },
           { label: '平湖市', value: 330482 },
-          { label: '桐乡市', value: 330483 },
-        ],
+          { label: '桐乡市', value: 330483 }
+        ]
       },
       {
         label: '湖州市',
@@ -1471,8 +1523,8 @@ export default [
           { label: '南浔区', value: 330503 },
           { label: '德清县', value: 330521 },
           { label: '长兴县', value: 330522 },
-          { label: '安吉县', value: 330523 },
-        ],
+          { label: '安吉县', value: 330523 }
+        ]
       },
       {
         label: '绍兴市',
@@ -1483,8 +1535,8 @@ export default [
           { label: '上虞区', value: 330604 },
           { label: '新昌县', value: 330624 },
           { label: '诸暨市', value: 330681 },
-          { label: '嵊州市', value: 330683 },
-        ],
+          { label: '嵊州市', value: 330683 }
+        ]
       },
       {
         label: '金华市',
@@ -1498,8 +1550,8 @@ export default [
           { label: '兰溪市', value: 330781 },
           { label: '义乌市', value: 330782 },
           { label: '东阳市', value: 330783 },
-          { label: '永康市', value: 330784 },
-        ],
+          { label: '永康市', value: 330784 }
+        ]
       },
       {
         label: '衢州市',
@@ -1510,8 +1562,8 @@ export default [
           { label: '常山县', value: 330822 },
           { label: '开化县', value: 330824 },
           { label: '龙游县', value: 330825 },
-          { label: '江山市', value: 330881 },
-        ],
+          { label: '江山市', value: 330881 }
+        ]
       },
       {
         label: '舟山市',
@@ -1520,8 +1572,8 @@ export default [
           { label: '定海区', value: 330902 },
           { label: '普陀区', value: 330903 },
           { label: '岱山县', value: 330921 },
-          { label: '嵊泗县', value: 330922 },
-        ],
+          { label: '嵊泗县', value: 330922 }
+        ]
       },
       {
         label: '台州市',
@@ -1535,8 +1587,8 @@ export default [
           { label: '仙居县', value: 331024 },
           { label: '温岭市', value: 331081 },
           { label: '临海市', value: 331082 },
-          { label: '玉环市', value: 331083 },
-        ],
+          { label: '玉环市', value: 331083 }
+        ]
       },
       {
         label: '丽水市',
@@ -1550,10 +1602,10 @@ export default [
           { label: '云和县', value: 331125 },
           { label: '庆元县', value: 331126 },
           { label: '景宁畲族自治县', value: 331127 },
-          { label: '龙泉市', value: 331181 },
-        ],
-      },
-    ],
+          { label: '龙泉市', value: 331181 }
+        ]
+      }
+    ]
   },
   {
     label: '安徽省',
@@ -1571,22 +1623,26 @@ export default [
           { label: '肥东县', value: 340122 },
           { label: '肥西县', value: 340123 },
           { label: '庐江县', value: 340124 },
-          { label: '巢湖市', value: 340181 },
-        ],
+          { label: '合肥高新技术产业开发区', value: 340171 },
+          { label: '合肥经济技术开发区', value: 340172 },
+          { label: '合肥新站高新技术产业开发区', value: 340173 },
+          { label: '巢湖市', value: 340181 }
+        ]
       },
       {
         label: '芜湖市',
         value: 340200,
         children: [
           { label: '镜湖区', value: 340202 },
-          { label: '弋江区', value: 340203 },
           { label: '鸠江区', value: 340207 },
-          { label: '三山区', value: 340208 },
-          { label: '芜湖县', value: 340221 },
-          { label: '繁昌县', value: 340222 },
+          { label: '弋江区', value: 340209 },
+          { label: '湾沚区', value: 340210 },
+          { label: '繁昌区', value: 340212 },
           { label: '南陵县', value: 340223 },
-          { label: '无为市', value: 340281 },
-        ],
+          { label: '芜湖经济技术开发区', value: 340271 },
+          { label: '安徽芜湖三山经济开发区', value: 340272 },
+          { label: '无为市', value: 340281 }
+        ]
       },
       {
         label: '蚌埠市',
@@ -1599,7 +1655,9 @@ export default [
           { label: '怀远县', value: 340321 },
           { label: '五河县', value: 340322 },
           { label: '固镇县', value: 340323 },
-        ],
+          { label: '蚌埠市高新技术开发区', value: 340371 },
+          { label: '蚌埠市经济开发区', value: 340372 }
+        ]
       },
       {
         label: '淮南市',
@@ -1611,8 +1669,8 @@ export default [
           { label: '八公山区', value: 340405 },
           { label: '潘集区', value: 340406 },
           { label: '凤台县', value: 340421 },
-          { label: '寿县', value: 340422 },
-        ],
+          { label: '寿县', value: 340422 }
+        ]
       },
       {
         label: '马鞍山市',
@@ -1623,8 +1681,8 @@ export default [
           { label: '博望区', value: 340506 },
           { label: '当涂县', value: 340521 },
           { label: '含山县', value: 340522 },
-          { label: '和县', value: 340523 },
-        ],
+          { label: '和县', value: 340523 }
+        ]
       },
       {
         label: '淮北市',
@@ -1633,8 +1691,8 @@ export default [
           { label: '杜集区', value: 340602 },
           { label: '相山区', value: 340603 },
           { label: '烈山区', value: 340604 },
-          { label: '濉溪县', value: 340621 },
-        ],
+          { label: '濉溪县', value: 340621 }
+        ]
       },
       {
         label: '铜陵市',
@@ -1643,8 +1701,8 @@ export default [
           { label: '铜官区', value: 340705 },
           { label: '义安区', value: 340706 },
           { label: '郊区', value: 340711 },
-          { label: '枞阳县', value: 340722 },
-        ],
+          { label: '枞阳县', value: 340722 }
+        ]
       },
       {
         label: '安庆市',
@@ -1658,9 +1716,10 @@ export default [
           { label: '宿松县', value: 340826 },
           { label: '望江县', value: 340827 },
           { label: '岳西县', value: 340828 },
+          { label: '安徽安庆经济开发区', value: 340871 },
           { label: '桐城市', value: 340881 },
-          { label: '潜山市', value: 340882 },
-        ],
+          { label: '潜山市', value: 340882 }
+        ]
       },
       {
         label: '黄山市',
@@ -1672,8 +1731,8 @@ export default [
           { label: '歙县', value: 341021 },
           { label: '休宁县', value: 341022 },
           { label: '黟县', value: 341023 },
-          { label: '祁门县', value: 341024 },
-        ],
+          { label: '祁门县', value: 341024 }
+        ]
       },
       {
         label: '滁州市',
@@ -1685,9 +1744,11 @@ export default [
           { label: '全椒县', value: 341124 },
           { label: '定远县', value: 341125 },
           { label: '凤阳县', value: 341126 },
+          { label: '中新苏滁高新技术产业开发区', value: 341171 },
+          { label: '滁州经济技术开发区', value: 341172 },
           { label: '天长市', value: 341181 },
-          { label: '明光市', value: 341182 },
-        ],
+          { label: '明光市', value: 341182 }
+        ]
       },
       {
         label: '阜阳市',
@@ -1700,8 +1761,10 @@ export default [
           { label: '太和县', value: 341222 },
           { label: '阜南县', value: 341225 },
           { label: '颍上县', value: 341226 },
-          { label: '界首市', value: 341282 },
-        ],
+          { label: '阜阳合肥现代产业园区', value: 341271 },
+          { label: '阜阳经济技术开发区', value: 341272 },
+          { label: '界首市', value: 341282 }
+        ]
       },
       {
         label: '宿州市',
@@ -1712,7 +1775,9 @@ export default [
           { label: '萧县', value: 341322 },
           { label: '灵璧县', value: 341323 },
           { label: '泗县', value: 341324 },
-        ],
+          { label: '宿州马鞍山现代产业园区', value: 341371 },
+          { label: '宿州经济技术开发区', value: 341372 }
+        ]
       },
       {
         label: '六安市',
@@ -1724,8 +1789,8 @@ export default [
           { label: '霍邱县', value: 341522 },
           { label: '舒城县', value: 341523 },
           { label: '金寨县', value: 341524 },
-          { label: '霍山县', value: 341525 },
-        ],
+          { label: '霍山县', value: 341525 }
+        ]
       },
       {
         label: '亳州市',
@@ -1734,8 +1799,8 @@ export default [
           { label: '谯城区', value: 341602 },
           { label: '涡阳县', value: 341621 },
           { label: '蒙城县', value: 341622 },
-          { label: '利辛县', value: 341623 },
-        ],
+          { label: '利辛县', value: 341623 }
+        ]
       },
       {
         label: '池州市',
@@ -1744,8 +1809,8 @@ export default [
           { label: '贵池区', value: 341702 },
           { label: '东至县', value: 341721 },
           { label: '石台县', value: 341722 },
-          { label: '青阳县', value: 341723 },
-        ],
+          { label: '青阳县', value: 341723 }
+        ]
       },
       {
         label: '宣城市',
@@ -1756,11 +1821,12 @@ export default [
           { label: '泾县', value: 341823 },
           { label: '绩溪县', value: 341824 },
           { label: '旌德县', value: 341825 },
+          { label: '宣城市经济开发区', value: 341871 },
           { label: '宁国市', value: 341881 },
-          { label: '广德市', value: 341882 },
-        ],
-      },
-    ],
+          { label: '广德市', value: 341882 }
+        ]
+      }
+    ]
   },
   {
     label: '福建省',
@@ -1782,8 +1848,8 @@ export default [
           { label: '闽清县', value: 350124 },
           { label: '永泰县', value: 350125 },
           { label: '平潭县', value: 350128 },
-          { label: '福清市', value: 350181 },
-        ],
+          { label: '福清市', value: 350181 }
+        ]
       },
       {
         label: '厦门市',
@@ -1794,8 +1860,8 @@ export default [
           { label: '湖里区', value: 350206 },
           { label: '集美区', value: 350211 },
           { label: '同安区', value: 350212 },
-          { label: '翔安区', value: 350213 },
-        ],
+          { label: '翔安区', value: 350213 }
+        ]
       },
       {
         label: '莆田市',
@@ -1805,26 +1871,25 @@ export default [
           { label: '涵江区', value: 350303 },
           { label: '荔城区', value: 350304 },
           { label: '秀屿区', value: 350305 },
-          { label: '仙游县', value: 350322 },
-        ],
+          { label: '仙游县', value: 350322 }
+        ]
       },
       {
         label: '三明市',
         value: 350400,
         children: [
-          { label: '梅列区', value: 350402 },
-          { label: '三元区', value: 350403 },
+          { label: '三元区', value: 350404 },
+          { label: '沙县区', value: 350405 },
           { label: '明溪县', value: 350421 },
           { label: '清流县', value: 350423 },
           { label: '宁化县', value: 350424 },
           { label: '大田县', value: 350425 },
           { label: '尤溪县', value: 350426 },
-          { label: '沙县', value: 350427 },
           { label: '将乐县', value: 350428 },
           { label: '泰宁县', value: 350429 },
           { label: '建宁县', value: 350430 },
-          { label: '永安市', value: 350481 },
-        ],
+          { label: '永安市', value: 350481 }
+        ]
       },
       {
         label: '泉州市',
@@ -1841,8 +1906,8 @@ export default [
           { label: '金门县', value: 350527 },
           { label: '石狮市', value: 350581 },
           { label: '晋江市', value: 350582 },
-          { label: '南安市', value: 350583 },
-        ],
+          { label: '南安市', value: 350583 }
+        ]
       },
       {
         label: '漳州市',
@@ -1850,16 +1915,16 @@ export default [
         children: [
           { label: '芗城区', value: 350602 },
           { label: '龙文区', value: 350603 },
+          { label: '龙海区', value: 350604 },
+          { label: '长泰区', value: 350605 },
           { label: '云霄县', value: 350622 },
           { label: '漳浦县', value: 350623 },
           { label: '诏安县', value: 350624 },
-          { label: '长泰县', value: 350625 },
           { label: '东山县', value: 350626 },
           { label: '南靖县', value: 350627 },
           { label: '平和县', value: 350628 },
-          { label: '华安县', value: 350629 },
-          { label: '龙海市', value: 350681 },
-        ],
+          { label: '华安县', value: 350629 }
+        ]
       },
       {
         label: '南平市',
@@ -1874,8 +1939,8 @@ export default [
           { label: '政和县', value: 350725 },
           { label: '邵武市', value: 350781 },
           { label: '武夷山市', value: 350782 },
-          { label: '建瓯市', value: 350783 },
-        ],
+          { label: '建瓯市', value: 350783 }
+        ]
       },
       {
         label: '龙岩市',
@@ -1887,8 +1952,8 @@ export default [
           { label: '上杭县', value: 350823 },
           { label: '武平县', value: 350824 },
           { label: '连城县', value: 350825 },
-          { label: '漳平市', value: 350881 },
-        ],
+          { label: '漳平市', value: 350881 }
+        ]
       },
       {
         label: '宁德市',
@@ -1902,10 +1967,10 @@ export default [
           { label: '周宁县', value: 350925 },
           { label: '柘荣县', value: 350926 },
           { label: '福安市', value: 350981 },
-          { label: '福鼎市', value: 350982 },
-        ],
-      },
-    ],
+          { label: '福鼎市', value: 350982 }
+        ]
+      }
+    ]
   },
   {
     label: '江西省',
@@ -1923,8 +1988,8 @@ export default [
           { label: '红谷滩区', value: 360113 },
           { label: '南昌县', value: 360121 },
           { label: '安义县', value: 360123 },
-          { label: '进贤县', value: 360124 },
-        ],
+          { label: '进贤县', value: 360124 }
+        ]
       },
       {
         label: '景德镇市',
@@ -1933,8 +1998,8 @@ export default [
           { label: '昌江区', value: 360202 },
           { label: '珠山区', value: 360203 },
           { label: '浮梁县', value: 360222 },
-          { label: '乐平市', value: 360281 },
-        ],
+          { label: '乐平市', value: 360281 }
+        ]
       },
       {
         label: '萍乡市',
@@ -1944,8 +2009,8 @@ export default [
           { label: '湘东区', value: 360313 },
           { label: '莲花县', value: 360321 },
           { label: '上栗县', value: 360322 },
-          { label: '芦溪县', value: 360323 },
-        ],
+          { label: '芦溪县', value: 360323 }
+        ]
       },
       {
         label: '九江市',
@@ -1963,16 +2028,16 @@ export default [
           { label: '彭泽县', value: 360430 },
           { label: '瑞昌市', value: 360481 },
           { label: '共青城市', value: 360482 },
-          { label: '庐山市', value: 360483 },
-        ],
+          { label: '庐山市', value: 360483 }
+        ]
       },
       {
         label: '新余市',
         value: 360500,
         children: [
           { label: '渝水区', value: 360502 },
-          { label: '分宜县', value: 360521 },
-        ],
+          { label: '分宜县', value: 360521 }
+        ]
       },
       {
         label: '鹰潭市',
@@ -1980,8 +2045,8 @@ export default [
         children: [
           { label: '月湖区', value: 360602 },
           { label: '余江区', value: 360603 },
-          { label: '贵溪市', value: 360681 },
-        ],
+          { label: '贵溪市', value: 360681 }
+        ]
       },
       {
         label: '赣州市',
@@ -1995,7 +2060,6 @@ export default [
           { label: '上犹县', value: 360724 },
           { label: '崇义县', value: 360725 },
           { label: '安远县', value: 360726 },
-          { label: '龙南县', value: 360727 },
           { label: '定南县', value: 360728 },
           { label: '全南县', value: 360729 },
           { label: '宁都县', value: 360730 },
@@ -2005,7 +2069,8 @@ export default [
           { label: '寻乌县', value: 360734 },
           { label: '石城县', value: 360735 },
           { label: '瑞金市', value: 360781 },
-        ],
+          { label: '龙南市', value: 360783 }
+        ]
       },
       {
         label: '吉安市',
@@ -2023,8 +2088,8 @@ export default [
           { label: '万安县', value: 360828 },
           { label: '安福县', value: 360829 },
           { label: '永新县', value: 360830 },
-          { label: '井冈山市', value: 360881 },
-        ],
+          { label: '井冈山市', value: 360881 }
+        ]
       },
       {
         label: '宜春市',
@@ -2039,8 +2104,8 @@ export default [
           { label: '铜鼓县', value: 360926 },
           { label: '丰城市', value: 360981 },
           { label: '樟树市', value: 360982 },
-          { label: '高安市', value: 360983 },
-        ],
+          { label: '高安市', value: 360983 }
+        ]
       },
       {
         label: '抚州市',
@@ -2056,8 +2121,8 @@ export default [
           { label: '宜黄县', value: 361026 },
           { label: '金溪县', value: 361027 },
           { label: '资溪县', value: 361028 },
-          { label: '广昌县', value: 361030 },
-        ],
+          { label: '广昌县', value: 361030 }
+        ]
       },
       {
         label: '上饶市',
@@ -2074,10 +2139,10 @@ export default [
           { label: '鄱阳县', value: 361128 },
           { label: '万年县', value: 361129 },
           { label: '婺源县', value: 361130 },
-          { label: '德兴市', value: 361181 },
-        ],
-      },
-    ],
+          { label: '德兴市', value: 361181 }
+        ]
+      }
+    ]
   },
   {
     label: '山东省',
@@ -2099,7 +2164,8 @@ export default [
           { label: '钢城区', value: 370117 },
           { label: '平阴县', value: 370124 },
           { label: '商河县', value: 370126 },
-        ],
+          { label: '济南高新技术产业开发区', value: 370171 }
+        ]
       },
       {
         label: '青岛市',
@@ -2112,10 +2178,11 @@ export default [
           { label: '李沧区', value: 370213 },
           { label: '城阳区', value: 370214 },
           { label: '即墨区', value: 370215 },
+          { label: '青岛高新技术产业开发区', value: 370271 },
           { label: '胶州市', value: 370281 },
           { label: '平度市', value: 370283 },
-          { label: '莱西市', value: 370285 },
-        ],
+          { label: '莱西市', value: 370285 }
+        ]
       },
       {
         label: '淄博市',
@@ -2128,8 +2195,8 @@ export default [
           { label: '周村区', value: 370306 },
           { label: '桓台县', value: 370321 },
           { label: '高青县', value: 370322 },
-          { label: '沂源县', value: 370323 },
-        ],
+          { label: '沂源县', value: 370323 }
+        ]
       },
       {
         label: '枣庄市',
@@ -2140,8 +2207,8 @@ export default [
           { label: '峄城区', value: 370404 },
           { label: '台儿庄区', value: 370405 },
           { label: '山亭区', value: 370406 },
-          { label: '滕州市', value: 370481 },
-        ],
+          { label: '滕州市', value: 370481 }
+        ]
       },
       {
         label: '东营市',
@@ -2152,7 +2219,9 @@ export default [
           { label: '垦利区', value: 370505 },
           { label: '利津县', value: 370522 },
           { label: '广饶县', value: 370523 },
-        ],
+          { label: '东营经济技术开发区', value: 370571 },
+          { label: '东营港经济开发区', value: 370572 }
+        ]
       },
       {
         label: '烟台市',
@@ -2162,17 +2231,16 @@ export default [
           { label: '福山区', value: 370611 },
           { label: '牟平区', value: 370612 },
           { label: '莱山区', value: 370613 },
-          { label: '长岛县', value: 370634 },
-          { label: '高新技术产业开发区', value: 370671 },
-          { label: '经济技术开发区', value: 370672 },
+          { label: '蓬莱区', value: 370614 },
+          { label: '烟台高新技术产业开发区', value: 370671 },
+          { label: '烟台经济技术开发区', value: 370672 },
           { label: '龙口市', value: 370681 },
           { label: '莱阳市', value: 370682 },
           { label: '莱州市', value: 370683 },
-          { label: '蓬莱市', value: 370684 },
           { label: '招远市', value: 370685 },
           { label: '栖霞市', value: 370686 },
-          { label: '海阳市', value: 370687 },
-        ],
+          { label: '海阳市', value: 370687 }
+        ]
       },
       {
         label: '潍坊市',
@@ -2190,8 +2258,8 @@ export default [
           { label: '寿光市', value: 370783 },
           { label: '安丘市', value: 370784 },
           { label: '高密市', value: 370785 },
-          { label: '昌邑市', value: 370786 },
-        ],
+          { label: '昌邑市', value: 370786 }
+        ]
       },
       {
         label: '济宁市',
@@ -2206,9 +2274,10 @@ export default [
           { label: '汶上县', value: 370830 },
           { label: '泗水县', value: 370831 },
           { label: '梁山县', value: 370832 },
+          { label: '济宁高新技术产业开发区', value: 370871 },
           { label: '曲阜市', value: 370881 },
-          { label: '邹城市', value: 370883 },
-        ],
+          { label: '邹城市', value: 370883 }
+        ]
       },
       {
         label: '泰安市',
@@ -2219,8 +2288,8 @@ export default [
           { label: '宁阳县', value: 370921 },
           { label: '东平县', value: 370923 },
           { label: '新泰市', value: 370982 },
-          { label: '肥城市', value: 370983 },
-        ],
+          { label: '肥城市', value: 370983 }
+        ]
       },
       {
         label: '威海市',
@@ -2228,9 +2297,12 @@ export default [
         children: [
           { label: '环翠区', value: 371002 },
           { label: '文登区', value: 371003 },
+          { label: '威海火炬高技术产业开发区', value: 371071 },
+          { label: '威海经济技术开发区', value: 371072 },
+          { label: '威海临港经济技术开发区', value: 371073 },
           { label: '荣成市', value: 371082 },
-          { label: '乳山市', value: 371083 },
-        ],
+          { label: '乳山市', value: 371083 }
+        ]
       },
       {
         label: '日照市',
@@ -2240,7 +2312,8 @@ export default [
           { label: '岚山区', value: 371103 },
           { label: '五莲县', value: 371121 },
           { label: '莒县', value: 371122 },
-        ],
+          { label: '日照经济技术开发区', value: 371171 }
+        ]
       },
       {
         label: '临沂市',
@@ -2258,7 +2331,8 @@ export default [
           { label: '莒南县', value: 371327 },
           { label: '蒙阴县', value: 371328 },
           { label: '临沭县', value: 371329 },
-        ],
+          { label: '临沂高新技术产业开发区', value: 371371 }
+        ]
       },
       {
         label: '德州市',
@@ -2273,23 +2347,24 @@ export default [
           { label: '平原县', value: 371426 },
           { label: '夏津县', value: 371427 },
           { label: '武城县', value: 371428 },
+          { label: '德州天衢新区', value: 371471 },
           { label: '乐陵市', value: 371481 },
-          { label: '禹城市', value: 371482 },
-        ],
+          { label: '禹城市', value: 371482 }
+        ]
       },
       {
         label: '聊城市',
         value: 371500,
         children: [
           { label: '东昌府区', value: 371502 },
+          { label: '茌平区', value: 371503 },
           { label: '阳谷县', value: 371521 },
           { label: '莘县', value: 371522 },
-          { label: '茌平区', value: 371523 },
           { label: '东阿县', value: 371524 },
           { label: '冠县', value: 371525 },
           { label: '高唐县', value: 371526 },
-          { label: '临清市', value: 371581 },
-        ],
+          { label: '临清市', value: 371581 }
+        ]
       },
       {
         label: '滨州市',
@@ -2301,8 +2376,8 @@ export default [
           { label: '阳信县', value: 371622 },
           { label: '无棣县', value: 371623 },
           { label: '博兴县', value: 371625 },
-          { label: '邹平市', value: 371681 },
-        ],
+          { label: '邹平市', value: 371681 }
+        ]
       },
       {
         label: '菏泽市',
@@ -2317,9 +2392,11 @@ export default [
           { label: '郓城县', value: 371725 },
           { label: '鄄城县', value: 371726 },
           { label: '东明县', value: 371728 },
-        ],
-      },
-    ],
+          { label: '菏泽经济技术开发区', value: 371771 },
+          { label: '菏泽高新技术开发区', value: 371772 }
+        ]
+      }
+    ]
   },
   {
     label: '河南省',
@@ -2336,12 +2413,15 @@ export default [
           { label: '上街区', value: 410106 },
           { label: '惠济区', value: 410108 },
           { label: '中牟县', value: 410122 },
+          { label: '郑州经济技术开发区', value: 410171 },
+          { label: '郑州高新技术产业开发区', value: 410172 },
+          { label: '郑州航空港经济综合实验区', value: 410173 },
           { label: '巩义市', value: 410181 },
           { label: '荥阳市', value: 410182 },
           { label: '新密市', value: 410183 },
           { label: '新郑市', value: 410184 },
-          { label: '登封市', value: 410185 },
-        ],
+          { label: '登封市', value: 410185 }
+        ]
       },
       {
         label: '开封市',
@@ -2355,8 +2435,8 @@ export default [
           { label: '杞县', value: 410221 },
           { label: '通许县', value: 410222 },
           { label: '尉氏县', value: 410223 },
-          { label: '兰考县', value: 410225 },
-        ],
+          { label: '兰考县', value: 410225 }
+        ]
       },
       {
         label: '洛阳市',
@@ -2366,9 +2446,9 @@ export default [
           { label: '西工区', value: 410303 },
           { label: '瀍河回族区', value: 410304 },
           { label: '涧西区', value: 410305 },
-          { label: '吉利区', value: 410306 },
+          { label: '偃师区', value: 410307 },
+          { label: '孟津区', value: 410308 },
           { label: '洛龙区', value: 410311 },
-          { label: '孟津县', value: 410322 },
           { label: '新安县', value: 410323 },
           { label: '栾川县', value: 410324 },
           { label: '嵩县', value: 410325 },
@@ -2376,8 +2456,8 @@ export default [
           { label: '宜阳县', value: 410327 },
           { label: '洛宁县', value: 410328 },
           { label: '伊川县', value: 410329 },
-          { label: '偃师市', value: 410381 },
-        ],
+          { label: '洛阳高新技术产业开发区', value: 410371 }
+        ]
       },
       {
         label: '平顶山市',
@@ -2391,9 +2471,11 @@ export default [
           { label: '叶县', value: 410422 },
           { label: '鲁山县', value: 410423 },
           { label: '郏县', value: 410425 },
+          { label: '平顶山高新技术产业开发区', value: 410471 },
+          { label: '平顶山市城乡一体化示范区', value: 410472 },
           { label: '舞钢市', value: 410481 },
-          { label: '汝州市', value: 410482 },
-        ],
+          { label: '汝州市', value: 410482 }
+        ]
       },
       {
         label: '安阳市',
@@ -2407,8 +2489,9 @@ export default [
           { label: '汤阴县', value: 410523 },
           { label: '滑县', value: 410526 },
           { label: '内黄县', value: 410527 },
-          { label: '林州市', value: 410581 },
-        ],
+          { label: '安阳高新技术产业开发区', value: 410571 },
+          { label: '林州市', value: 410581 }
+        ]
       },
       {
         label: '鹤壁市',
@@ -2419,7 +2502,8 @@ export default [
           { label: '淇滨区', value: 410611 },
           { label: '浚县', value: 410621 },
           { label: '淇县', value: 410622 },
-        ],
+          { label: '鹤壁经济技术开发区', value: 410671 }
+        ]
       },
       {
         label: '新乡市',
@@ -2434,10 +2518,13 @@ export default [
           { label: '原阳县', value: 410725 },
           { label: '延津县', value: 410726 },
           { label: '封丘县', value: 410727 },
+          { label: '新乡高新技术产业开发区', value: 410771 },
+          { label: '新乡经济技术开发区', value: 410772 },
+          { label: '新乡市平原城乡一体化示范区', value: 410773 },
           { label: '卫辉市', value: 410781 },
           { label: '辉县市', value: 410782 },
-          { label: '长垣市', value: 410783 },
-        ],
+          { label: '长垣市', value: 410783 }
+        ]
       },
       {
         label: '焦作市',
@@ -2451,9 +2538,10 @@ export default [
           { label: '博爱县', value: 410822 },
           { label: '武陟县', value: 410823 },
           { label: '温县', value: 410825 },
+          { label: '焦作城乡一体化示范区', value: 410871 },
           { label: '沁阳市', value: 410882 },
-          { label: '孟州市', value: 410883 },
-        ],
+          { label: '孟州市', value: 410883 }
+        ]
       },
       {
         label: '濮阳市',
@@ -2465,7 +2553,9 @@ export default [
           { label: '范县', value: 410926 },
           { label: '台前县', value: 410927 },
           { label: '濮阳县', value: 410928 },
-        ],
+          { label: '河南濮阳工业园区', value: 410971 },
+          { label: '濮阳经济技术开发区', value: 410972 }
+        ]
       },
       {
         label: '许昌市',
@@ -2475,9 +2565,10 @@ export default [
           { label: '建安区', value: 411003 },
           { label: '鄢陵县', value: 411024 },
           { label: '襄城县', value: 411025 },
+          { label: '许昌经济技术开发区', value: 411071 },
           { label: '禹州市', value: 411081 },
-          { label: '长葛市', value: 411082 },
-        ],
+          { label: '长葛市', value: 411082 }
+        ]
       },
       {
         label: '漯河市',
@@ -2488,7 +2579,8 @@ export default [
           { label: '召陵区', value: 411104 },
           { label: '舞阳县', value: 411121 },
           { label: '临颍县', value: 411122 },
-        ],
+          { label: '漯河经济技术开发区', value: 411171 }
+        ]
       },
       {
         label: '三门峡市',
@@ -2498,9 +2590,10 @@ export default [
           { label: '陕州区', value: 411203 },
           { label: '渑池县', value: 411221 },
           { label: '卢氏县', value: 411224 },
+          { label: '河南三门峡经济开发区', value: 411271 },
           { label: '义马市', value: 411281 },
-          { label: '灵宝市', value: 411282 },
-        ],
+          { label: '灵宝市', value: 411282 }
+        ]
       },
       {
         label: '南阳市',
@@ -2518,8 +2611,10 @@ export default [
           { label: '唐河县', value: 411328 },
           { label: '新野县', value: 411329 },
           { label: '桐柏县', value: 411330 },
-          { label: '邓州市', value: 411381 },
-        ],
+          { label: '南阳高新技术产业开发区', value: 411371 },
+          { label: '南阳市城乡一体化示范区', value: 411372 },
+          { label: '邓州市', value: 411381 }
+        ]
       },
       {
         label: '商丘市',
@@ -2533,8 +2628,10 @@ export default [
           { label: '柘城县', value: 411424 },
           { label: '虞城县', value: 411425 },
           { label: '夏邑县', value: 411426 },
-          { label: '永城市', value: 411481 },
-        ],
+          { label: '豫东综合物流产业聚集区', value: 411471 },
+          { label: '河南商丘经济开发区', value: 411472 },
+          { label: '永城市', value: 411481 }
+        ]
       },
       {
         label: '信阳市',
@@ -2550,7 +2647,8 @@ export default [
           { label: '潢川县', value: 411526 },
           { label: '淮滨县', value: 411527 },
           { label: '息县', value: 411528 },
-        ],
+          { label: '信阳高新技术产业开发区', value: 411571 }
+        ]
       },
       {
         label: '周口市',
@@ -2565,8 +2663,9 @@ export default [
           { label: '郸城县', value: 411625 },
           { label: '太康县', value: 411627 },
           { label: '鹿邑县', value: 411628 },
-          { label: '项城市', value: 411681 },
-        ],
+          { label: '河南周口经济开发区', value: 411671 },
+          { label: '项城市', value: 411681 }
+        ]
       },
       {
         label: '驻马店市',
@@ -2582,14 +2681,15 @@ export default [
           { label: '汝南县', value: 411727 },
           { label: '遂平县', value: 411728 },
           { label: '新蔡县', value: 411729 },
-        ],
+          { label: '河南驻马店经济开发区', value: 411771 }
+        ]
       },
       {
         label: '省直辖县级行政区划',
         value: 419000,
-        children: [{ label: '济源市', value: 419001 }],
-      },
-    ],
+        children: [ { label: '济源市', value: 419001 } ]
+      }
+    ]
   },
   {
     label: '湖北省',
@@ -2611,8 +2711,8 @@ export default [
           { label: '蔡甸区', value: 420114 },
           { label: '江夏区', value: 420115 },
           { label: '黄陂区', value: 420116 },
-          { label: '新洲区', value: 420117 },
-        ],
+          { label: '新洲区', value: 420117 }
+        ]
       },
       {
         label: '黄石市',
@@ -2623,8 +2723,8 @@ export default [
           { label: '下陆区', value: 420204 },
           { label: '铁山区', value: 420205 },
           { label: '阳新县', value: 420222 },
-          { label: '大冶市', value: 420281 },
-        ],
+          { label: '大冶市', value: 420281 }
+        ]
       },
       {
         label: '十堰市',
@@ -2637,8 +2737,8 @@ export default [
           { label: '竹山县', value: 420323 },
           { label: '竹溪县', value: 420324 },
           { label: '房县', value: 420325 },
-          { label: '丹江口市', value: 420381 },
-        ],
+          { label: '丹江口市', value: 420381 }
+        ]
       },
       {
         label: '宜昌市',
@@ -2656,8 +2756,8 @@ export default [
           { label: '五峰土家族自治县', value: 420529 },
           { label: '宜都市', value: 420581 },
           { label: '当阳市', value: 420582 },
-          { label: '枝江市', value: 420583 },
-        ],
+          { label: '枝江市', value: 420583 }
+        ]
       },
       {
         label: '襄阳市',
@@ -2671,8 +2771,8 @@ export default [
           { label: '保康县', value: 420626 },
           { label: '老河口市', value: 420682 },
           { label: '枣阳市', value: 420683 },
-          { label: '宜城市', value: 420684 },
-        ],
+          { label: '宜城市', value: 420684 }
+        ]
       },
       {
         label: '鄂州市',
@@ -2680,8 +2780,8 @@ export default [
         children: [
           { label: '梁子湖区', value: 420702 },
           { label: '华容区', value: 420703 },
-          { label: '鄂城区', value: 420704 },
-        ],
+          { label: '鄂城区', value: 420704 }
+        ]
       },
       {
         label: '荆门市',
@@ -2691,8 +2791,8 @@ export default [
           { label: '掇刀区', value: 420804 },
           { label: '沙洋县', value: 420822 },
           { label: '钟祥市', value: 420881 },
-          { label: '京山市', value: 420882 },
-        ],
+          { label: '京山市', value: 420882 }
+        ]
       },
       {
         label: '孝感市',
@@ -2704,8 +2804,8 @@ export default [
           { label: '云梦县', value: 420923 },
           { label: '应城市', value: 420981 },
           { label: '安陆市', value: 420982 },
-          { label: '汉川市', value: 420984 },
-        ],
+          { label: '汉川市', value: 420984 }
+        ]
       },
       {
         label: '荆州市',
@@ -2714,12 +2814,13 @@ export default [
           { label: '沙市区', value: 421002 },
           { label: '荆州区', value: 421003 },
           { label: '公安县', value: 421022 },
-          { label: '监利县', value: 421023 },
           { label: '江陵县', value: 421024 },
+          { label: '荆州经济技术开发区', value: 421071 },
           { label: '石首市', value: 421081 },
           { label: '洪湖市', value: 421083 },
           { label: '松滋市', value: 421087 },
-        ],
+          { label: '监利市', value: 421088 }
+        ]
       },
       {
         label: '黄冈市',
@@ -2733,9 +2834,10 @@ export default [
           { label: '浠水县', value: 421125 },
           { label: '蕲春县', value: 421126 },
           { label: '黄梅县', value: 421127 },
+          { label: '龙感湖管理区', value: 421171 },
           { label: '麻城市', value: 421181 },
-          { label: '武穴市', value: 421182 },
-        ],
+          { label: '武穴市', value: 421182 }
+        ]
       },
       {
         label: '咸宁市',
@@ -2746,8 +2848,8 @@ export default [
           { label: '通城县', value: 421222 },
           { label: '崇阳县', value: 421223 },
           { label: '通山县', value: 421224 },
-          { label: '赤壁市', value: 421281 },
-        ],
+          { label: '赤壁市', value: 421281 }
+        ]
       },
       {
         label: '随州市',
@@ -2755,8 +2857,8 @@ export default [
         children: [
           { label: '曾都区', value: 421303 },
           { label: '随县', value: 421321 },
-          { label: '广水市', value: 421381 },
-        ],
+          { label: '广水市', value: 421381 }
+        ]
       },
       {
         label: '恩施土家族苗族自治州',
@@ -2769,8 +2871,8 @@ export default [
           { label: '宣恩县', value: 422825 },
           { label: '咸丰县', value: 422826 },
           { label: '来凤县', value: 422827 },
-          { label: '鹤峰县', value: 422828 },
-        ],
+          { label: '鹤峰县', value: 422828 }
+        ]
       },
       {
         label: '省直辖县级行政区划',
@@ -2779,10 +2881,10 @@ export default [
           { label: '仙桃市', value: 429004 },
           { label: '潜江市', value: 429005 },
           { label: '天门市', value: 429006 },
-          { label: '神农架林区', value: 429021 },
-        ],
-      },
-    ],
+          { label: '神农架林区', value: 429021 }
+        ]
+      }
+    ]
   },
   {
     label: '湖南省',
@@ -2800,8 +2902,8 @@ export default [
           { label: '望城区', value: 430112 },
           { label: '长沙县', value: 430121 },
           { label: '浏阳市', value: 430181 },
-          { label: '宁乡市', value: 430182 },
-        ],
+          { label: '宁乡市', value: 430182 }
+        ]
       },
       {
         label: '株洲市',
@@ -2815,8 +2917,8 @@ export default [
           { label: '攸县', value: 430223 },
           { label: '茶陵县', value: 430224 },
           { label: '炎陵县', value: 430225 },
-          { label: '醴陵市', value: 430281 },
-        ],
+          { label: '醴陵市', value: 430281 }
+        ]
       },
       {
         label: '湘潭市',
@@ -2825,9 +2927,12 @@ export default [
           { label: '雨湖区', value: 430302 },
           { label: '岳塘区', value: 430304 },
           { label: '湘潭县', value: 430321 },
+          { label: '湖南湘潭高新技术产业园区', value: 430371 },
+          { label: '湘潭昭山示范区', value: 430372 },
+          { label: '湘潭九华示范区', value: 430373 },
           { label: '湘乡市', value: 430381 },
-          { label: '韶山市', value: 430382 },
-        ],
+          { label: '韶山市', value: 430382 }
+        ]
       },
       {
         label: '衡阳市',
@@ -2843,9 +2948,12 @@ export default [
           { label: '衡山县', value: 430423 },
           { label: '衡东县', value: 430424 },
           { label: '祁东县', value: 430426 },
+          { label: '衡阳综合保税区', value: 430471 },
+          { label: '湖南衡阳高新技术产业园区', value: 430472 },
+          { label: '湖南衡阳松木经济开发区', value: 430473 },
           { label: '耒阳市', value: 430481 },
-          { label: '常宁市', value: 430482 },
-        ],
+          { label: '常宁市', value: 430482 }
+        ]
       },
       {
         label: '邵阳市',
@@ -2862,8 +2970,8 @@ export default [
           { label: '新宁县', value: 430528 },
           { label: '城步苗族自治县', value: 430529 },
           { label: '武冈市', value: 430581 },
-          { label: '邵东市', value: 430582 },
-        ],
+          { label: '邵东市', value: 430582 }
+        ]
       },
       {
         label: '岳阳市',
@@ -2876,9 +2984,10 @@ export default [
           { label: '华容县', value: 430623 },
           { label: '湘阴县', value: 430624 },
           { label: '平江县', value: 430626 },
+          { label: '岳阳市屈原管理区', value: 430671 },
           { label: '汨罗市', value: 430681 },
-          { label: '临湘市', value: 430682 },
-        ],
+          { label: '临湘市', value: 430682 }
+        ]
       },
       {
         label: '常德市',
@@ -2892,8 +3001,9 @@ export default [
           { label: '临澧县', value: 430724 },
           { label: '桃源县', value: 430725 },
           { label: '石门县', value: 430726 },
-          { label: '津市市', value: 430781 },
-        ],
+          { label: '常德市西洞庭管理区', value: 430771 },
+          { label: '津市市', value: 430781 }
+        ]
       },
       {
         label: '张家界市',
@@ -2902,8 +3012,8 @@ export default [
           { label: '永定区', value: 430802 },
           { label: '武陵源区', value: 430811 },
           { label: '慈利县', value: 430821 },
-          { label: '桑植县', value: 430822 },
-        ],
+          { label: '桑植县', value: 430822 }
+        ]
       },
       {
         label: '益阳市',
@@ -2914,8 +3024,10 @@ export default [
           { label: '南县', value: 430921 },
           { label: '桃江县', value: 430922 },
           { label: '安化县', value: 430923 },
-          { label: '沅江市', value: 430981 },
-        ],
+          { label: '益阳市大通湖管理区', value: 430971 },
+          { label: '湖南益阳高新技术产业园区', value: 430972 },
+          { label: '沅江市', value: 430981 }
+        ]
       },
       {
         label: '郴州市',
@@ -2931,8 +3043,8 @@ export default [
           { label: '汝城县', value: 431026 },
           { label: '桂东县', value: 431027 },
           { label: '安仁县', value: 431028 },
-          { label: '资兴市', value: 431081 },
-        ],
+          { label: '资兴市', value: 431081 }
+        ]
       },
       {
         label: '永州市',
@@ -2940,7 +3052,6 @@ export default [
         children: [
           { label: '零陵区', value: 431102 },
           { label: '冷水滩区', value: 431103 },
-          { label: '祁阳县', value: 431121 },
           { label: '东安县', value: 431122 },
           { label: '双牌县', value: 431123 },
           { label: '道县', value: 431124 },
@@ -2949,7 +3060,10 @@ export default [
           { label: '蓝山县', value: 431127 },
           { label: '新田县', value: 431128 },
           { label: '江华瑶族自治县', value: 431129 },
-        ],
+          { label: '永州经济技术开发区', value: 431171 },
+          { label: '永州市回龙圩管理区', value: 431173 },
+          { label: '祁阳市', value: 431181 }
+        ]
       },
       {
         label: '怀化市',
@@ -2966,8 +3080,9 @@ export default [
           { label: '芷江侗族自治县', value: 431228 },
           { label: '靖州苗族侗族自治县', value: 431229 },
           { label: '通道侗族自治县', value: 431230 },
-          { label: '洪江市', value: 431281 },
-        ],
+          { label: '怀化市洪江管理区', value: 431271 },
+          { label: '洪江市', value: 431281 }
+        ]
       },
       {
         label: '娄底市',
@@ -2977,8 +3092,8 @@ export default [
           { label: '双峰县', value: 431321 },
           { label: '新化县', value: 431322 },
           { label: '冷水江市', value: 431381 },
-          { label: '涟源市', value: 431382 },
-        ],
+          { label: '涟源市', value: 431382 }
+        ]
       },
       {
         label: '湘西土家族苗族自治州',
@@ -2991,10 +3106,10 @@ export default [
           { label: '保靖县', value: 433125 },
           { label: '古丈县', value: 433126 },
           { label: '永顺县', value: 433127 },
-          { label: '龙山县', value: 433130 },
-        ],
-      },
-    ],
+          { label: '龙山县', value: 433130 }
+        ]
+      }
+    ]
   },
   {
     label: '广东省',
@@ -3014,8 +3129,8 @@ export default [
           { label: '花都区', value: 440114 },
           { label: '南沙区', value: 440115 },
           { label: '从化区', value: 440117 },
-          { label: '增城区', value: 440118 },
-        ],
+          { label: '增城区', value: 440118 }
+        ]
       },
       {
         label: '韶关市',
@@ -3030,8 +3145,8 @@ export default [
           { label: '乳源瑶族自治县', value: 440232 },
           { label: '新丰县', value: 440233 },
           { label: '乐昌市', value: 440281 },
-          { label: '南雄市', value: 440282 },
-        ],
+          { label: '南雄市', value: 440282 }
+        ]
       },
       {
         label: '深圳市',
@@ -3045,8 +3160,8 @@ export default [
           { label: '盐田区', value: 440308 },
           { label: '龙华区', value: 440309 },
           { label: '坪山区', value: 440310 },
-          { label: '光明区', value: 440311 },
-        ],
+          { label: '光明区', value: 440311 }
+        ]
       },
       {
         label: '珠海市',
@@ -3054,8 +3169,8 @@ export default [
         children: [
           { label: '香洲区', value: 440402 },
           { label: '斗门区', value: 440403 },
-          { label: '金湾区', value: 440404 },
-        ],
+          { label: '金湾区', value: 440404 }
+        ]
       },
       {
         label: '汕头市',
@@ -3067,8 +3182,8 @@ export default [
           { label: '潮阳区', value: 440513 },
           { label: '潮南区', value: 440514 },
           { label: '澄海区', value: 440515 },
-          { label: '南澳县', value: 440523 },
-        ],
+          { label: '南澳县', value: 440523 }
+        ]
       },
       {
         label: '佛山市',
@@ -3078,8 +3193,8 @@ export default [
           { label: '南海区', value: 440605 },
           { label: '顺德区', value: 440606 },
           { label: '三水区', value: 440607 },
-          { label: '高明区', value: 440608 },
-        ],
+          { label: '高明区', value: 440608 }
+        ]
       },
       {
         label: '江门市',
@@ -3091,8 +3206,8 @@ export default [
           { label: '台山市', value: 440781 },
           { label: '开平市', value: 440783 },
           { label: '鹤山市', value: 440784 },
-          { label: '恩平市', value: 440785 },
-        ],
+          { label: '恩平市', value: 440785 }
+        ]
       },
       {
         label: '湛江市',
@@ -3106,8 +3221,8 @@ export default [
           { label: '徐闻县', value: 440825 },
           { label: '廉江市', value: 440881 },
           { label: '雷州市', value: 440882 },
-          { label: '吴川市', value: 440883 },
-        ],
+          { label: '吴川市', value: 440883 }
+        ]
       },
       {
         label: '茂名市',
@@ -3117,8 +3232,8 @@ export default [
           { label: '电白区', value: 440904 },
           { label: '高州市', value: 440981 },
           { label: '化州市', value: 440982 },
-          { label: '信宜市', value: 440983 },
-        ],
+          { label: '信宜市', value: 440983 }
+        ]
       },
       {
         label: '肇庆市',
@@ -3131,8 +3246,8 @@ export default [
           { label: '怀集县', value: 441224 },
           { label: '封开县', value: 441225 },
           { label: '德庆县', value: 441226 },
-          { label: '四会市', value: 441284 },
-        ],
+          { label: '四会市', value: 441284 }
+        ]
       },
       {
         label: '惠州市',
@@ -3142,8 +3257,8 @@ export default [
           { label: '惠阳区', value: 441303 },
           { label: '博罗县', value: 441322 },
           { label: '惠东县', value: 441323 },
-          { label: '龙门县', value: 441324 },
-        ],
+          { label: '龙门县', value: 441324 }
+        ]
       },
       {
         label: '梅州市',
@@ -3156,8 +3271,8 @@ export default [
           { label: '五华县', value: 441424 },
           { label: '平远县', value: 441426 },
           { label: '蕉岭县', value: 441427 },
-          { label: '兴宁市', value: 441481 },
-        ],
+          { label: '兴宁市', value: 441481 }
+        ]
       },
       {
         label: '汕尾市',
@@ -3166,8 +3281,8 @@ export default [
           { label: '城区', value: 441502 },
           { label: '海丰县', value: 441521 },
           { label: '陆河县', value: 441523 },
-          { label: '陆丰市', value: 441581 },
-        ],
+          { label: '陆丰市', value: 441581 }
+        ]
       },
       {
         label: '河源市',
@@ -3178,8 +3293,8 @@ export default [
           { label: '龙川县', value: 441622 },
           { label: '连平县', value: 441623 },
           { label: '和平县', value: 441624 },
-          { label: '东源县', value: 441625 },
-        ],
+          { label: '东源县', value: 441625 }
+        ]
       },
       {
         label: '阳江市',
@@ -3188,8 +3303,8 @@ export default [
           { label: '江城区', value: 441702 },
           { label: '阳东区', value: 441704 },
           { label: '阳西县', value: 441721 },
-          { label: '阳春市', value: 441781 },
-        ],
+          { label: '阳春市', value: 441781 }
+        ]
       },
       {
         label: '清远市',
@@ -3202,79 +3317,79 @@ export default [
           { label: '连山壮族瑶族自治县', value: 441825 },
           { label: '连南瑶族自治县', value: 441826 },
           { label: '英德市', value: 441881 },
-          { label: '连州市', value: 441882 },
-        ],
+          { label: '连州市', value: 441882 }
+        ]
       },
       {
         label: '东莞市',
         value: 441900,
         children: [
-          { label: '东城街道', value: 441901 },
-          { label: '南城街道', value: 441902 },
-          { label: '万江街道', value: 441903 },
-          { label: '莞城街道', value: 441904 },
-          { label: '石碣镇', value: 441905 },
-          { label: '石龙镇', value: 441906 },
-          { label: '茶山镇', value: 441907 },
-          { label: '石排镇', value: 441908 },
-          { label: '企石镇', value: 441909 },
-          { label: '横沥镇', value: 441910 },
-          { label: '桥头镇', value: 441911 },
-          { label: '谢岗镇', value: 441912 },
-          { label: '东坑镇', value: 441913 },
-          { label: '常平镇', value: 441914 },
-          { label: '寮步镇', value: 441915 },
-          { label: '樟木头镇', value: 441916 },
-          { label: '大朗镇', value: 441917 },
-          { label: '黄江镇', value: 441918 },
-          { label: '清溪镇', value: 441919 },
-          { label: '塘厦镇', value: 441920 },
-          { label: '凤岗镇', value: 441921 },
-          { label: '大岭山镇', value: 441922 },
-          { label: '长安镇', value: 441923 },
-          { label: '虎门镇', value: 441924 },
-          { label: '厚街镇', value: 441925 },
-          { label: '沙田镇', value: 441926 },
-          { label: '道滘镇', value: 441927 },
-          { label: '洪梅镇', value: 441928 },
-          { label: '麻涌镇', value: 441929 },
-          { label: '望牛墩镇', value: 441930 },
-          { label: '中堂镇', value: 441931 },
-          { label: '高埗镇', value: 441932 },
-          { label: '松山湖管委会', value: 441933 },
-          { label: '虎门港管委会', value: 441934 },
-          { label: '东莞生态园', value: 441935 },
-        ],
+          { label: '东城街道', value: 441900003 },
+          { label: '南城街道', value: 441900004 },
+          { label: '万江街道', value: 441900005 },
+          { label: '莞城街道', value: 441900006 },
+          { label: '石碣镇', value: 441900101 },
+          { label: '石龙镇', value: 441900102 },
+          { label: '茶山镇', value: 441900103 },
+          { label: '石排镇', value: 441900104 },
+          { label: '企石镇', value: 441900105 },
+          { label: '横沥镇', value: 441900106 },
+          { label: '桥头镇', value: 441900107 },
+          { label: '谢岗镇', value: 441900108 },
+          { label: '东坑镇', value: 441900109 },
+          { label: '常平镇', value: 441900110 },
+          { label: '寮步镇', value: 441900111 },
+          { label: '樟木头镇', value: 441900112 },
+          { label: '大朗镇', value: 441900113 },
+          { label: '黄江镇', value: 441900114 },
+          { label: '清溪镇', value: 441900115 },
+          { label: '塘厦镇', value: 441900116 },
+          { label: '凤岗镇', value: 441900117 },
+          { label: '大岭山镇', value: 441900118 },
+          { label: '长安镇', value: 441900119 },
+          { label: '虎门镇', value: 441900121 },
+          { label: '厚街镇', value: 441900122 },
+          { label: '沙田镇', value: 441900123 },
+          { label: '道滘镇', value: 441900124 },
+          { label: '洪梅镇', value: 441900125 },
+          { label: '麻涌镇', value: 441900126 },
+          { label: '望牛墩镇', value: 441900127 },
+          { label: '中堂镇', value: 441900128 },
+          { label: '高埗镇', value: 441900129 },
+          { label: '松山湖', value: 441900401 },
+          { label: '东莞港', value: 441900402 },
+          { label: '东莞生态园', value: 441900403 },
+          { label: '东莞滨海湾新区', value: 441900404 }
+        ]
       },
       {
         label: '中山市',
         value: 442000,
         children: [
-          { label: '石岐街道', value: 442001 },
-          { label: '东区街道', value: 442002 },
-          { label: '中山港街道', value: 442003 },
-          { label: '西区街道', value: 442004 },
-          { label: '南区街道', value: 442005 },
-          { label: '五桂山街道', value: 442006 },
-          { label: '小榄镇', value: 442007 },
-          { label: '黄圃镇', value: 442008 },
-          { label: '民众镇', value: 442009 },
-          { label: '东凤镇', value: 442010 },
-          { label: '东升镇', value: 442011 },
-          { label: '古镇镇', value: 442012 },
-          { label: '沙溪镇', value: 442013 },
-          { label: '坦洲镇', value: 442014 },
-          { label: '港口镇', value: 442015 },
-          { label: '三角镇', value: 442016 },
-          { label: '横栏镇', value: 442017 },
-          { label: '南头镇', value: 442018 },
-          { label: '阜沙镇', value: 442019 },
-          { label: '南朗镇', value: 442020 },
-          { label: '三乡镇', value: 442021 },
-          { label: '板芙镇', value: 442022 },
-          { label: '大涌镇', value: 442023 },
-          { label: '神湾镇', value: 442024 },
-        ],
+          { label: '石岐街道', value: 442000001 },
+          { label: '东区街道', value: 442000002 },
+          { label: '中山港街道', value: 442000003 },
+          { label: '西区街道', value: 442000004 },
+          { label: '南区街道', value: 442000005 },
+          { label: '五桂山街道', value: 442000006 },
+          { label: '民众街道', value: 442000007 },
+          { label: '南朗街道', value: 442000008 },
+          { label: '黄圃镇', value: 442000101 },
+          { label: '东凤镇', value: 442000103 },
+          { label: '古镇镇', value: 442000105 },
+          { label: '沙溪镇', value: 442000106 },
+          { label: '坦洲镇', value: 442000107 },
+          { label: '港口镇', value: 442000108 },
+          { label: '三角镇', value: 442000109 },
+          { label: '横栏镇', value: 442000110 },
+          { label: '南头镇', value: 442000111 },
+          { label: '阜沙镇', value: 442000112 },
+          { label: '三乡镇', value: 442000114 },
+          { label: '板芙镇', value: 442000115 },
+          { label: '大涌镇', value: 442000116 },
+          { label: '神湾镇', value: 442000117 },
+          { label: '小榄镇', value: 442000118 }
+        ]
       },
       {
         label: '潮州市',
@@ -3282,8 +3397,8 @@ export default [
         children: [
           { label: '湘桥区', value: 445102 },
           { label: '潮安区', value: 445103 },
-          { label: '饶平县', value: 445122 },
-        ],
+          { label: '饶平县', value: 445122 }
+        ]
       },
       {
         label: '揭阳市',
@@ -3293,8 +3408,8 @@ export default [
           { label: '揭东区', value: 445203 },
           { label: '揭西县', value: 445222 },
           { label: '惠来县', value: 445224 },
-          { label: '普宁市', value: 445281 },
-        ],
+          { label: '普宁市', value: 445281 }
+        ]
       },
       {
         label: '云浮市',
@@ -3304,10 +3419,10 @@ export default [
           { label: '云安区', value: 445303 },
           { label: '新兴县', value: 445321 },
           { label: '郁南县', value: 445322 },
-          { label: '罗定市', value: 445381 },
-        ],
-      },
-    ],
+          { label: '罗定市', value: 445381 }
+        ]
+      }
+    ]
   },
   {
     label: '广西壮族自治区',
@@ -3328,8 +3443,8 @@ export default [
           { label: '马山县', value: 450124 },
           { label: '上林县', value: 450125 },
           { label: '宾阳县', value: 450126 },
-          { label: '横县', value: 450127 },
-        ],
+          { label: '横州市', value: 450181 }
+        ]
       },
       {
         label: '柳州市',
@@ -3344,8 +3459,8 @@ export default [
           { label: '鹿寨县', value: 450223 },
           { label: '融安县', value: 450224 },
           { label: '融水苗族自治县', value: 450225 },
-          { label: '三江侗族自治县', value: 450226 },
-        ],
+          { label: '三江侗族自治县', value: 450226 }
+        ]
       },
       {
         label: '桂林市',
@@ -3367,8 +3482,8 @@ export default [
           { label: '资源县', value: 450329 },
           { label: '平乐县', value: 450330 },
           { label: '恭城瑶族自治县', value: 450332 },
-          { label: '荔浦市', value: 450381 },
-        ],
+          { label: '荔浦市', value: 450381 }
+        ]
       },
       {
         label: '梧州市',
@@ -3380,8 +3495,8 @@ export default [
           { label: '苍梧县', value: 450421 },
           { label: '藤县', value: 450422 },
           { label: '蒙山县', value: 450423 },
-          { label: '岑溪市', value: 450481 },
-        ],
+          { label: '岑溪市', value: 450481 }
+        ]
       },
       {
         label: '北海市',
@@ -3390,8 +3505,8 @@ export default [
           { label: '海城区', value: 450502 },
           { label: '银海区', value: 450503 },
           { label: '铁山港区', value: 450512 },
-          { label: '合浦县', value: 450521 },
-        ],
+          { label: '合浦县', value: 450521 }
+        ]
       },
       {
         label: '防城港市',
@@ -3400,8 +3515,8 @@ export default [
           { label: '港口区', value: 450602 },
           { label: '防城区', value: 450603 },
           { label: '上思县', value: 450621 },
-          { label: '东兴市', value: 450681 },
-        ],
+          { label: '东兴市', value: 450681 }
+        ]
       },
       {
         label: '钦州市',
@@ -3410,8 +3525,8 @@ export default [
           { label: '钦南区', value: 450702 },
           { label: '钦北区', value: 450703 },
           { label: '灵山县', value: 450721 },
-          { label: '浦北县', value: 450722 },
-        ],
+          { label: '浦北县', value: 450722 }
+        ]
       },
       {
         label: '贵港市',
@@ -3421,8 +3536,8 @@ export default [
           { label: '港南区', value: 450803 },
           { label: '覃塘区', value: 450804 },
           { label: '平南县', value: 450821 },
-          { label: '桂平市', value: 450881 },
-        ],
+          { label: '桂平市', value: 450881 }
+        ]
       },
       {
         label: '玉林市',
@@ -3434,8 +3549,8 @@ export default [
           { label: '陆川县', value: 450922 },
           { label: '博白县', value: 450923 },
           { label: '兴业县', value: 450924 },
-          { label: '北流市', value: 450981 },
-        ],
+          { label: '北流市', value: 450981 }
+        ]
       },
       {
         label: '百色市',
@@ -3452,8 +3567,8 @@ export default [
           { label: '西林县', value: 451030 },
           { label: '隆林各族自治县', value: 451031 },
           { label: '靖西市', value: 451081 },
-          { label: '平果市', value: 451082 },
-        ],
+          { label: '平果市', value: 451082 }
+        ]
       },
       {
         label: '贺州市',
@@ -3463,8 +3578,8 @@ export default [
           { label: '平桂区', value: 451103 },
           { label: '昭平县', value: 451121 },
           { label: '钟山县', value: 451122 },
-          { label: '富川瑶族自治县', value: 451123 },
-        ],
+          { label: '富川瑶族自治县', value: 451123 }
+        ]
       },
       {
         label: '河池市',
@@ -3480,8 +3595,8 @@ export default [
           { label: '环江毛南族自治县', value: 451226 },
           { label: '巴马瑶族自治县', value: 451227 },
           { label: '都安瑶族自治县', value: 451228 },
-          { label: '大化瑶族自治县', value: 451229 },
-        ],
+          { label: '大化瑶族自治县', value: 451229 }
+        ]
       },
       {
         label: '来宾市',
@@ -3492,8 +3607,8 @@ export default [
           { label: '象州县', value: 451322 },
           { label: '武宣县', value: 451323 },
           { label: '金秀瑶族自治县', value: 451324 },
-          { label: '合山市', value: 451381 },
-        ],
+          { label: '合山市', value: 451381 }
+        ]
       },
       {
         label: '崇左市',
@@ -3505,10 +3620,10 @@ export default [
           { label: '龙州县', value: 451423 },
           { label: '大新县', value: 451424 },
           { label: '天等县', value: 451425 },
-          { label: '凭祥市', value: 451481 },
-        ],
-      },
-    ],
+          { label: '凭祥市', value: 451481 }
+        ]
+      }
+    ]
   },
   {
     label: '海南省',
@@ -3521,8 +3636,8 @@ export default [
           { label: '秀英区', value: 460105 },
           { label: '龙华区', value: 460106 },
           { label: '琼山区', value: 460107 },
-          { label: '美兰区', value: 460108 },
-        ],
+          { label: '美兰区', value: 460108 }
+        ]
       },
       {
         label: '三亚市',
@@ -3531,8 +3646,8 @@ export default [
           { label: '海棠区', value: 460202 },
           { label: '吉阳区', value: 460203 },
           { label: '天涯区', value: 460204 },
-          { label: '崖州区', value: 460205 },
-        ],
+          { label: '崖州区', value: 460205 }
+        ]
       },
       {
         label: '三沙市',
@@ -3540,32 +3655,32 @@ export default [
         children: [
           { label: '西沙群岛', value: 460321 },
           { label: '南沙群岛', value: 460322 },
-          { label: '中沙群岛的岛礁及其海域', value: 460323 },
-        ],
+          { label: '中沙群岛的岛礁及其海域', value: 460323 }
+        ]
       },
       {
         label: '儋州市',
         value: 460400,
         children: [
-          { label: '那大镇', value: 460401 },
-          { label: '和庆镇', value: 460402 },
-          { label: '南丰镇', value: 460403 },
-          { label: '大成镇', value: 460404 },
-          { label: '雅星镇', value: 460405 },
-          { label: '兰洋镇', value: 460406 },
-          { label: '光村镇', value: 460407 },
-          { label: '木棠镇', value: 460408 },
-          { label: '海头镇', value: 460409 },
-          { label: '峨蔓镇', value: 460410 },
-          { label: '王五镇', value: 460412 },
-          { label: '白马井镇', value: 460413 },
-          { label: '中和镇', value: 460414 },
-          { label: '排浦镇', value: 460415 },
-          { label: '东成镇', value: 460416 },
-          { label: '新州镇', value: 460417 },
-          { label: '洋浦经济开发区', value: 460422 },
-          { label: '华南热作学院', value: 460423 },
-        ],
+          { label: '那大镇', value: 460400100 },
+          { label: '和庆镇', value: 460400101 },
+          { label: '南丰镇', value: 460400102 },
+          { label: '大成镇', value: 460400103 },
+          { label: '雅星镇', value: 460400104 },
+          { label: '兰洋镇', value: 460400105 },
+          { label: '光村镇', value: 460400106 },
+          { label: '木棠镇', value: 460400107 },
+          { label: '海头镇', value: 460400108 },
+          { label: '峨蔓镇', value: 460400109 },
+          { label: '王五镇', value: 460400111 },
+          { label: '白马井镇', value: 460400112 },
+          { label: '中和镇', value: 460400113 },
+          { label: '排浦镇', value: 460400114 },
+          { label: '东成镇', value: 460400115 },
+          { label: '新州镇', value: 460400116 },
+          { label: '洋浦经济开发区', value: 460400499 },
+          { label: '华南热作学院', value: 460400500 }
+        ]
       },
       {
         label: '省直辖县级行政区划',
@@ -3585,17 +3700,17 @@ export default [
           { label: '乐东黎族自治县', value: 469027 },
           { label: '陵水黎族自治县', value: 469028 },
           { label: '保亭黎族苗族自治县', value: 469029 },
-          { label: '琼中黎族苗族自治县', value: 469030 },
-        ],
-      },
-    ],
+          { label: '琼中黎族苗族自治县', value: 469030 }
+        ]
+      }
+    ]
   },
   {
     label: '重庆市',
     value: 500000,
     children: [
       {
-        label: '重庆市',
+        label: '市辖区',
         value: 500100,
         children: [
           { label: '万州区', value: 500101 },
@@ -3623,8 +3738,8 @@ export default [
           { label: '荣昌区', value: 500153 },
           { label: '开州区', value: 500154 },
           { label: '梁平区', value: 500155 },
-          { label: '武隆区', value: 500156 },
-        ],
+          { label: '武隆区', value: 500156 }
+        ]
       },
       {
         label: '县',
@@ -3641,10 +3756,10 @@ export default [
           { label: '石柱土家族自治县', value: 500240 },
           { label: '秀山土家族苗族自治县', value: 500241 },
           { label: '酉阳土家族苗族自治县', value: 500242 },
-          { label: '彭水苗族土家族自治县', value: 500243 },
-        ],
-      },
-    ],
+          { label: '彭水苗族土家族自治县', value: 500243 }
+        ]
+      }
+    ]
   },
   {
     label: '四川省',
@@ -3665,16 +3780,16 @@ export default [
           { label: '温江区', value: 510115 },
           { label: '双流区', value: 510116 },
           { label: '郫都区', value: 510117 },
+          { label: '新津区', value: 510118 },
           { label: '金堂县', value: 510121 },
           { label: '大邑县', value: 510129 },
           { label: '蒲江县', value: 510131 },
-          { label: '新津县', value: 510132 },
           { label: '都江堰市', value: 510181 },
           { label: '彭州市', value: 510182 },
           { label: '邛崃市', value: 510183 },
           { label: '崇州市', value: 510184 },
-          { label: '简阳市', value: 510185 },
-        ],
+          { label: '简阳市', value: 510185 }
+        ]
       },
       {
         label: '自贡市',
@@ -3685,8 +3800,8 @@ export default [
           { label: '大安区', value: 510304 },
           { label: '沿滩区', value: 510311 },
           { label: '荣县', value: 510321 },
-          { label: '富顺县', value: 510322 },
-        ],
+          { label: '富顺县', value: 510322 }
+        ]
       },
       {
         label: '攀枝花市',
@@ -3696,8 +3811,8 @@ export default [
           { label: '西区', value: 510403 },
           { label: '仁和区', value: 510411 },
           { label: '米易县', value: 510421 },
-          { label: '盐边县', value: 510422 },
-        ],
+          { label: '盐边县', value: 510422 }
+        ]
       },
       {
         label: '泸州市',
@@ -3709,8 +3824,8 @@ export default [
           { label: '泸县', value: 510521 },
           { label: '合江县', value: 510522 },
           { label: '叙永县', value: 510524 },
-          { label: '古蔺县', value: 510525 },
-        ],
+          { label: '古蔺县', value: 510525 }
+        ]
       },
       {
         label: '德阳市',
@@ -3721,8 +3836,8 @@ export default [
           { label: '中江县', value: 510623 },
           { label: '广汉市', value: 510681 },
           { label: '什邡市', value: 510682 },
-          { label: '绵竹市', value: 510683 },
-        ],
+          { label: '绵竹市', value: 510683 }
+        ]
       },
       {
         label: '绵阳市',
@@ -3736,8 +3851,8 @@ export default [
           { label: '梓潼县', value: 510725 },
           { label: '北川羌族自治县', value: 510726 },
           { label: '平武县', value: 510727 },
-          { label: '江油市', value: 510781 },
-        ],
+          { label: '江油市', value: 510781 }
+        ]
       },
       {
         label: '广元市',
@@ -3749,8 +3864,8 @@ export default [
           { label: '旺苍县', value: 510821 },
           { label: '青川县', value: 510822 },
           { label: '剑阁县', value: 510823 },
-          { label: '苍溪县', value: 510824 },
-        ],
+          { label: '苍溪县', value: 510824 }
+        ]
       },
       {
         label: '遂宁市',
@@ -3760,8 +3875,8 @@ export default [
           { label: '安居区', value: 510904 },
           { label: '蓬溪县', value: 510921 },
           { label: '大英县', value: 510923 },
-          { label: '射洪市', value: 510981 },
-        ],
+          { label: '射洪市', value: 510981 }
+        ]
       },
       {
         label: '内江市',
@@ -3771,8 +3886,8 @@ export default [
           { label: '东兴区', value: 511011 },
           { label: '威远县', value: 511024 },
           { label: '资中县', value: 511025 },
-          { label: '隆昌市', value: 511083 },
-        ],
+          { label: '隆昌市', value: 511083 }
+        ]
       },
       {
         label: '乐山市',
@@ -3788,8 +3903,8 @@ export default [
           { label: '沐川县', value: 511129 },
           { label: '峨边彝族自治县', value: 511132 },
           { label: '马边彝族自治县', value: 511133 },
-          { label: '峨眉山市', value: 511181 },
-        ],
+          { label: '峨眉山市', value: 511181 }
+        ]
       },
       {
         label: '南充市',
@@ -3803,8 +3918,8 @@ export default [
           { label: '蓬安县', value: 511323 },
           { label: '仪陇县', value: 511324 },
           { label: '西充县', value: 511325 },
-          { label: '阆中市', value: 511381 },
-        ],
+          { label: '阆中市', value: 511381 }
+        ]
       },
       {
         label: '眉山市',
@@ -3815,8 +3930,8 @@ export default [
           { label: '仁寿县', value: 511421 },
           { label: '洪雅县', value: 511423 },
           { label: '丹棱县', value: 511424 },
-          { label: '青神县', value: 511425 },
-        ],
+          { label: '青神县', value: 511425 }
+        ]
       },
       {
         label: '宜宾市',
@@ -3831,8 +3946,8 @@ export default [
           { label: '珙县', value: 511526 },
           { label: '筠连县', value: 511527 },
           { label: '兴文县', value: 511528 },
-          { label: '屏山县', value: 511529 },
-        ],
+          { label: '屏山县', value: 511529 }
+        ]
       },
       {
         label: '广安市',
@@ -3843,8 +3958,8 @@ export default [
           { label: '岳池县', value: 511621 },
           { label: '武胜县', value: 511622 },
           { label: '邻水县', value: 511623 },
-          { label: '华蓥市', value: 511681 },
-        ],
+          { label: '华蓥市', value: 511681 }
+        ]
       },
       {
         label: '达州市',
@@ -3856,8 +3971,8 @@ export default [
           { label: '开江县', value: 511723 },
           { label: '大竹县', value: 511724 },
           { label: '渠县', value: 511725 },
-          { label: '万源市', value: 511781 },
-        ],
+          { label: '万源市', value: 511781 }
+        ]
       },
       {
         label: '雅安市',
@@ -3870,8 +3985,8 @@ export default [
           { label: '石棉县', value: 511824 },
           { label: '天全县', value: 511825 },
           { label: '芦山县', value: 511826 },
-          { label: '宝兴县', value: 511827 },
-        ],
+          { label: '宝兴县', value: 511827 }
+        ]
       },
       {
         label: '巴中市',
@@ -3881,8 +3996,8 @@ export default [
           { label: '恩阳区', value: 511903 },
           { label: '通江县', value: 511921 },
           { label: '南江县', value: 511922 },
-          { label: '平昌县', value: 511923 },
-        ],
+          { label: '平昌县', value: 511923 }
+        ]
       },
       {
         label: '资阳市',
@@ -3890,8 +4005,8 @@ export default [
         children: [
           { label: '雁江区', value: 512002 },
           { label: '安岳县', value: 512021 },
-          { label: '乐至县', value: 512022 },
-        ],
+          { label: '乐至县', value: 512022 }
+        ]
       },
       {
         label: '阿坝藏族羌族自治州',
@@ -3909,8 +4024,8 @@ export default [
           { label: '壤塘县', value: 513230 },
           { label: '阿坝县', value: 513231 },
           { label: '若尔盖县', value: 513232 },
-          { label: '红原县', value: 513233 },
-        ],
+          { label: '红原县', value: 513233 }
+        ]
       },
       {
         label: '甘孜藏族自治州',
@@ -3933,18 +4048,18 @@ export default [
           { label: '巴塘县', value: 513335 },
           { label: '乡城县', value: 513336 },
           { label: '稻城县', value: 513337 },
-          { label: '得荣县', value: 513338 },
-        ],
+          { label: '得荣县', value: 513338 }
+        ]
       },
       {
         label: '凉山彝族自治州',
         value: 513400,
         children: [
           { label: '西昌市', value: 513401 },
+          { label: '会理市', value: 513402 },
           { label: '木里藏族自治县', value: 513422 },
           { label: '盐源县', value: 513423 },
           { label: '德昌县', value: 513424 },
-          { label: '会理县', value: 513425 },
           { label: '会东县', value: 513426 },
           { label: '宁南县', value: 513427 },
           { label: '普格县', value: 513428 },
@@ -3956,10 +4071,10 @@ export default [
           { label: '越西县', value: 513434 },
           { label: '甘洛县', value: 513435 },
           { label: '美姑县', value: 513436 },
-          { label: '雷波县', value: 513437 },
-        ],
-      },
-    ],
+          { label: '雷波县', value: 513437 }
+        ]
+      }
+    ]
   },
   {
     label: '贵州省',
@@ -3978,8 +4093,8 @@ export default [
           { label: '开阳县', value: 520121 },
           { label: '息烽县', value: 520122 },
           { label: '修文县', value: 520123 },
-          { label: '清镇市', value: 520181 },
-        ],
+          { label: '清镇市', value: 520181 }
+        ]
       },
       {
         label: '六盘水市',
@@ -3987,9 +4102,9 @@ export default [
         children: [
           { label: '钟山区', value: 520201 },
           { label: '六枝特区', value: 520203 },
-          { label: '水城县', value: 520221 },
-          { label: '盘州市', value: 520281 },
-        ],
+          { label: '水城区', value: 520204 },
+          { label: '盘州市', value: 520281 }
+        ]
       },
       {
         label: '遵义市',
@@ -4008,8 +4123,8 @@ export default [
           { label: '余庆县', value: 520329 },
           { label: '习水县', value: 520330 },
           { label: '赤水市', value: 520381 },
-          { label: '仁怀市', value: 520382 },
-        ],
+          { label: '仁怀市', value: 520382 }
+        ]
       },
       {
         label: '安顺市',
@@ -4020,8 +4135,8 @@ export default [
           { label: '普定县', value: 520422 },
           { label: '镇宁布依族苗族自治县', value: 520423 },
           { label: '关岭布依族苗族自治县', value: 520424 },
-          { label: '紫云苗族布依族自治县', value: 520425 },
-        ],
+          { label: '紫云苗族布依族自治县', value: 520425 }
+        ]
       },
       {
         label: '毕节市',
@@ -4029,13 +4144,13 @@ export default [
         children: [
           { label: '七星关区', value: 520502 },
           { label: '大方县', value: 520521 },
-          { label: '黔西县', value: 520522 },
           { label: '金沙县', value: 520523 },
           { label: '织金县', value: 520524 },
           { label: '纳雍县', value: 520525 },
           { label: '威宁彝族回族苗族自治县', value: 520526 },
           { label: '赫章县', value: 520527 },
-        ],
+          { label: '黔西市', value: 520581 }
+        ]
       },
       {
         label: '铜仁市',
@@ -4050,8 +4165,8 @@ export default [
           { label: '印江土家族苗族自治县', value: 520625 },
           { label: '德江县', value: 520626 },
           { label: '沿河土家族自治县', value: 520627 },
-          { label: '松桃苗族自治县', value: 520628 },
-        ],
+          { label: '松桃苗族自治县', value: 520628 }
+        ]
       },
       {
         label: '黔西南布依族苗族自治州',
@@ -4064,8 +4179,8 @@ export default [
           { label: '贞丰县', value: 522325 },
           { label: '望谟县', value: 522326 },
           { label: '册亨县', value: 522327 },
-          { label: '安龙县', value: 522328 },
-        ],
+          { label: '安龙县', value: 522328 }
+        ]
       },
       {
         label: '黔东南苗族侗族自治州',
@@ -4086,8 +4201,8 @@ export default [
           { label: '从江县', value: 522633 },
           { label: '雷山县', value: 522634 },
           { label: '麻江县', value: 522635 },
-          { label: '丹寨县', value: 522636 },
-        ],
+          { label: '丹寨县', value: 522636 }
+        ]
       },
       {
         label: '黔南布依族苗族自治州',
@@ -4104,10 +4219,10 @@ export default [
           { label: '长顺县', value: 522729 },
           { label: '龙里县', value: 522730 },
           { label: '惠水县', value: 522731 },
-          { label: '三都水族自治县', value: 522732 },
-        ],
-      },
-    ],
+          { label: '三都水族自治县', value: 522732 }
+        ]
+      }
+    ]
   },
   {
     label: '云南省',
@@ -4130,8 +4245,8 @@ export default [
           { label: '嵩明县', value: 530127 },
           { label: '禄劝彝族苗族自治县', value: 530128 },
           { label: '寻甸回族彝族自治县', value: 530129 },
-          { label: '安宁市', value: 530181 },
-        ],
+          { label: '安宁市', value: 530181 }
+        ]
       },
       {
         label: '曲靖市',
@@ -4145,8 +4260,8 @@ export default [
           { label: '罗平县', value: 530324 },
           { label: '富源县', value: 530325 },
           { label: '会泽县', value: 530326 },
-          { label: '宣威市', value: 530381 },
-        ],
+          { label: '宣威市', value: 530381 }
+        ]
       },
       {
         label: '玉溪市',
@@ -4160,8 +4275,8 @@ export default [
           { label: '峨山彝族自治县', value: 530426 },
           { label: '新平彝族傣族自治县', value: 530427 },
           { label: '元江哈尼族彝族傣族自治县', value: 530428 },
-          { label: '澄江市', value: 530481 },
-        ],
+          { label: '澄江市', value: 530481 }
+        ]
       },
       {
         label: '保山市',
@@ -4171,8 +4286,8 @@ export default [
           { label: '施甸县', value: 530521 },
           { label: '龙陵县', value: 530523 },
           { label: '昌宁县', value: 530524 },
-          { label: '腾冲市', value: 530581 },
-        ],
+          { label: '腾冲市', value: 530581 }
+        ]
       },
       {
         label: '昭通市',
@@ -4188,8 +4303,8 @@ export default [
           { label: '镇雄县', value: 530627 },
           { label: '彝良县', value: 530628 },
           { label: '威信县', value: 530629 },
-          { label: '水富市', value: 530681 },
-        ],
+          { label: '水富市', value: 530681 }
+        ]
       },
       {
         label: '丽江市',
@@ -4199,8 +4314,8 @@ export default [
           { label: '玉龙纳西族自治县', value: 530721 },
           { label: '永胜县', value: 530722 },
           { label: '华坪县', value: 530723 },
-          { label: '宁蒗彝族自治县', value: 530724 },
-        ],
+          { label: '宁蒗彝族自治县', value: 530724 }
+        ]
       },
       {
         label: '普洱市',
@@ -4215,8 +4330,8 @@ export default [
           { label: '江城哈尼族彝族自治县', value: 530826 },
           { label: '孟连傣族拉祜族佤族自治县', value: 530827 },
           { label: '澜沧拉祜族自治县', value: 530828 },
-          { label: '西盟佤族自治县', value: 530829 },
-        ],
+          { label: '西盟佤族自治县', value: 530829 }
+        ]
       },
       {
         label: '临沧市',
@@ -4229,14 +4344,15 @@ export default [
           { label: '镇康县', value: 530924 },
           { label: '双江拉祜族佤族布朗族傣族自治县', value: 530925 },
           { label: '耿马傣族佤族自治县', value: 530926 },
-          { label: '沧源佤族自治县', value: 530927 },
-        ],
+          { label: '沧源佤族自治县', value: 530927 }
+        ]
       },
       {
         label: '楚雄彝族自治州',
         value: 532300,
         children: [
           { label: '楚雄市', value: 532301 },
+          { label: '禄丰市', value: 532302 },
           { label: '双柏县', value: 532322 },
           { label: '牟定县', value: 532323 },
           { label: '南华县', value: 532324 },
@@ -4244,9 +4360,8 @@ export default [
           { label: '大姚县', value: 532326 },
           { label: '永仁县', value: 532327 },
           { label: '元谋县', value: 532328 },
-          { label: '武定县', value: 532329 },
-          { label: '禄丰县', value: 532331 },
-        ],
+          { label: '武定县', value: 532329 }
+        ]
       },
       {
         label: '红河哈尼族彝族自治州',
@@ -4264,8 +4379,8 @@ export default [
           { label: '红河县', value: 532529 },
           { label: '金平苗族瑶族傣族自治县', value: 532530 },
           { label: '绿春县', value: 532531 },
-          { label: '河口瑶族自治县', value: 532532 },
-        ],
+          { label: '河口瑶族自治县', value: 532532 }
+        ]
       },
       {
         label: '文山壮族苗族自治州',
@@ -4278,8 +4393,8 @@ export default [
           { label: '马关县', value: 532625 },
           { label: '丘北县', value: 532626 },
           { label: '广南县', value: 532627 },
-          { label: '富宁县', value: 532628 },
-        ],
+          { label: '富宁县', value: 532628 }
+        ]
       },
       {
         label: '西双版纳傣族自治州',
@@ -4287,8 +4402,8 @@ export default [
         children: [
           { label: '景洪市', value: 532801 },
           { label: '勐海县', value: 532822 },
-          { label: '勐腊县', value: 532823 },
-        ],
+          { label: '勐腊县', value: 532823 }
+        ]
       },
       {
         label: '大理白族自治州',
@@ -4305,8 +4420,8 @@ export default [
           { label: '云龙县', value: 532929 },
           { label: '洱源县', value: 532930 },
           { label: '剑川县', value: 532931 },
-          { label: '鹤庆县', value: 532932 },
-        ],
+          { label: '鹤庆县', value: 532932 }
+        ]
       },
       {
         label: '德宏傣族景颇族自治州',
@@ -4316,8 +4431,8 @@ export default [
           { label: '芒市', value: 533103 },
           { label: '梁河县', value: 533122 },
           { label: '盈江县', value: 533123 },
-          { label: '陇川县', value: 533124 },
-        ],
+          { label: '陇川县', value: 533124 }
+        ]
       },
       {
         label: '怒江傈僳族自治州',
@@ -4326,8 +4441,8 @@ export default [
           { label: '泸水市', value: 533301 },
           { label: '福贡县', value: 533323 },
           { label: '贡山独龙族怒族自治县', value: 533324 },
-          { label: '兰坪白族普米族自治县', value: 533325 },
-        ],
+          { label: '兰坪白族普米族自治县', value: 533325 }
+        ]
       },
       {
         label: '迪庆藏族自治州',
@@ -4335,10 +4450,10 @@ export default [
         children: [
           { label: '香格里拉市', value: 533401 },
           { label: '德钦县', value: 533422 },
-          { label: '维西傈僳族自治县', value: 533423 },
-        ],
-      },
-    ],
+          { label: '维西傈僳族自治县', value: 533423 }
+        ]
+      }
+    ]
   },
   {
     label: '西藏自治区',
@@ -4356,7 +4471,11 @@ export default [
           { label: '尼木县', value: 540123 },
           { label: '曲水县', value: 540124 },
           { label: '墨竹工卡县', value: 540127 },
-        ],
+          { label: '格尔木藏青工业园区', value: 540171 },
+          { label: '拉萨经济技术开发区', value: 540172 },
+          { label: '西藏文化旅游创意园区', value: 540173 },
+          { label: '达孜工业园区', value: 540174 }
+        ]
       },
       {
         label: '日喀则市',
@@ -4379,8 +4498,8 @@ export default [
           { label: '吉隆县', value: 540234 },
           { label: '聂拉木县', value: 540235 },
           { label: '萨嘎县', value: 540236 },
-          { label: '岗巴县', value: 540237 },
-        ],
+          { label: '岗巴县', value: 540237 }
+        ]
       },
       {
         label: '昌都市',
@@ -4396,8 +4515,8 @@ export default [
           { label: '左贡县', value: 540327 },
           { label: '芒康县', value: 540328 },
           { label: '洛隆县', value: 540329 },
-          { label: '边坝县', value: 540330 },
-        ],
+          { label: '边坝县', value: 540330 }
+        ]
       },
       {
         label: '林芝市',
@@ -4409,8 +4528,8 @@ export default [
           { label: '墨脱县', value: 540423 },
           { label: '波密县', value: 540424 },
           { label: '察隅县', value: 540425 },
-          { label: '朗县', value: 540426 },
-        ],
+          { label: '朗县', value: 540426 }
+        ]
       },
       {
         label: '山南市',
@@ -4427,8 +4546,8 @@ export default [
           { label: '加查县', value: 540528 },
           { label: '隆子县', value: 540529 },
           { label: '错那县', value: 540530 },
-          { label: '浪卡子县', value: 540531 },
-        ],
+          { label: '浪卡子县', value: 540531 }
+        ]
       },
       {
         label: '那曲市',
@@ -4444,8 +4563,8 @@ export default [
           { label: '班戈县', value: 540627 },
           { label: '巴青县', value: 540628 },
           { label: '尼玛县', value: 540629 },
-          { label: '双湖县', value: 540630 },
-        ],
+          { label: '双湖县', value: 540630 }
+        ]
       },
       {
         label: '阿里地区',
@@ -4457,10 +4576,10 @@ export default [
           { label: '日土县', value: 542524 },
           { label: '革吉县', value: 542525 },
           { label: '改则县', value: 542526 },
-          { label: '措勤县', value: 542527 },
-        ],
-      },
-    ],
+          { label: '措勤县', value: 542527 }
+        ]
+      }
+    ]
   },
   {
     label: '陕西省',
@@ -4482,8 +4601,8 @@ export default [
           { label: '高陵区', value: 610117 },
           { label: '鄠邑区', value: 610118 },
           { label: '蓝田县', value: 610122 },
-          { label: '周至县', value: 610124 },
-        ],
+          { label: '周至县', value: 610124 }
+        ]
       },
       {
         label: '铜川市',
@@ -4492,8 +4611,8 @@ export default [
           { label: '王益区', value: 610202 },
           { label: '印台区', value: 610203 },
           { label: '耀州区', value: 610204 },
-          { label: '宜君县', value: 610222 },
-        ],
+          { label: '宜君县', value: 610222 }
+        ]
       },
       {
         label: '宝鸡市',
@@ -4502,7 +4621,7 @@ export default [
           { label: '渭滨区', value: 610302 },
           { label: '金台区', value: 610303 },
           { label: '陈仓区', value: 610304 },
-          { label: '凤翔县', value: 610322 },
+          { label: '凤翔区', value: 610305 },
           { label: '岐山县', value: 610323 },
           { label: '扶风县', value: 610324 },
           { label: '眉县', value: 610326 },
@@ -4510,8 +4629,8 @@ export default [
           { label: '千阳县', value: 610328 },
           { label: '麟游县', value: 610329 },
           { label: '凤县', value: 610330 },
-          { label: '太白县', value: 610331 },
-        ],
+          { label: '太白县', value: 610331 }
+        ]
       },
       {
         label: '咸阳市',
@@ -4530,8 +4649,8 @@ export default [
           { label: '淳化县', value: 610430 },
           { label: '武功县', value: 610431 },
           { label: '兴平市', value: 610481 },
-          { label: '彬州市', value: 610482 },
-        ],
+          { label: '彬州市', value: 610482 }
+        ]
       },
       {
         label: '渭南市',
@@ -4547,8 +4666,8 @@ export default [
           { label: '白水县', value: 610527 },
           { label: '富平县', value: 610528 },
           { label: '韩城市', value: 610581 },
-          { label: '华阴市', value: 610582 },
-        ],
+          { label: '华阴市', value: 610582 }
+        ]
       },
       {
         label: '延安市',
@@ -4566,8 +4685,8 @@ export default [
           { label: '宜川县', value: 610630 },
           { label: '黄龙县', value: 610631 },
           { label: '黄陵县', value: 610632 },
-          { label: '子长市', value: 610681 },
-        ],
+          { label: '子长市', value: 610681 }
+        ]
       },
       {
         label: '汉中市',
@@ -4583,8 +4702,8 @@ export default [
           { label: '略阳县', value: 610727 },
           { label: '镇巴县', value: 610728 },
           { label: '留坝县', value: 610729 },
-          { label: '佛坪县', value: 610730 },
-        ],
+          { label: '佛坪县', value: 610730 }
+        ]
       },
       {
         label: '榆林市',
@@ -4601,8 +4720,8 @@ export default [
           { label: '吴堡县', value: 610829 },
           { label: '清涧县', value: 610830 },
           { label: '子洲县', value: 610831 },
-          { label: '神木市', value: 610881 },
-        ],
+          { label: '神木市', value: 610881 }
+        ]
       },
       {
         label: '安康市',
@@ -4616,9 +4735,9 @@ export default [
           { label: '岚皋县', value: 610925 },
           { label: '平利县', value: 610926 },
           { label: '镇坪县', value: 610927 },
-          { label: '旬阳县', value: 610928 },
           { label: '白河县', value: 610929 },
-        ],
+          { label: '旬阳市', value: 610981 }
+        ]
       },
       {
         label: '商洛市',
@@ -4630,10 +4749,10 @@ export default [
           { label: '商南县', value: 611023 },
           { label: '山阳县', value: 611024 },
           { label: '镇安县', value: 611025 },
-          { label: '柞水县', value: 611026 },
-        ],
-      },
-    ],
+          { label: '柞水县', value: 611026 }
+        ]
+      }
+    ]
   },
   {
     label: '甘肃省',
@@ -4651,27 +4770,27 @@ export default [
           { label: '永登县', value: 620121 },
           { label: '皋兰县', value: 620122 },
           { label: '榆中县', value: 620123 },
-        ],
+          { label: '兰州新区', value: 620171 }
+        ]
       },
       {
         label: '嘉峪关市',
         value: 620200,
         children: [
-          { label: '雄关区', value: 620201 },
-          { label: '镜铁区', value: 620202 },
-          { label: '长城区', value: 620203 },
-          { label: '新城镇', value: 620204 },
-          { label: '峪泉镇', value: 620205 },
-          { label: '文殊镇', value: 620206 },
-        ],
+          { label: '雄关街道', value: 620201001 },
+          { label: '钢城街道', value: 620201002 },
+          { label: '新城镇', value: 620201100 },
+          { label: '峪泉镇', value: 620201101 },
+          { label: '文殊镇', value: 620201102 }
+        ]
       },
       {
         label: '金昌市',
         value: 620300,
         children: [
           { label: '金川区', value: 620302 },
-          { label: '永昌县', value: 620321 },
-        ],
+          { label: '永昌县', value: 620321 }
+        ]
       },
       {
         label: '白银市',
@@ -4681,8 +4800,8 @@ export default [
           { label: '平川区', value: 620403 },
           { label: '靖远县', value: 620421 },
           { label: '会宁县', value: 620422 },
-          { label: '景泰县', value: 620423 },
-        ],
+          { label: '景泰县', value: 620423 }
+        ]
       },
       {
         label: '天水市',
@@ -4694,8 +4813,8 @@ export default [
           { label: '秦安县', value: 620522 },
           { label: '甘谷县', value: 620523 },
           { label: '武山县', value: 620524 },
-          { label: '张家川回族自治县', value: 620525 },
-        ],
+          { label: '张家川回族自治县', value: 620525 }
+        ]
       },
       {
         label: '武威市',
@@ -4704,8 +4823,8 @@ export default [
           { label: '凉州区', value: 620602 },
           { label: '民勤县', value: 620621 },
           { label: '古浪县', value: 620622 },
-          { label: '天祝藏族自治县', value: 620623 },
-        ],
+          { label: '天祝藏族自治县', value: 620623 }
+        ]
       },
       {
         label: '张掖市',
@@ -4716,8 +4835,8 @@ export default [
           { label: '民乐县', value: 620722 },
           { label: '临泽县', value: 620723 },
           { label: '高台县', value: 620724 },
-          { label: '山丹县', value: 620725 },
-        ],
+          { label: '山丹县', value: 620725 }
+        ]
       },
       {
         label: '平凉市',
@@ -4729,8 +4848,8 @@ export default [
           { label: '崇信县', value: 620823 },
           { label: '庄浪县', value: 620825 },
           { label: '静宁县', value: 620826 },
-          { label: '华亭市', value: 620881 },
-        ],
+          { label: '华亭市', value: 620881 }
+        ]
       },
       {
         label: '酒泉市',
@@ -4742,8 +4861,8 @@ export default [
           { label: '肃北蒙古族自治县', value: 620923 },
           { label: '阿克塞哈萨克族自治县', value: 620924 },
           { label: '玉门市', value: 620981 },
-          { label: '敦煌市', value: 620982 },
-        ],
+          { label: '敦煌市', value: 620982 }
+        ]
       },
       {
         label: '庆阳市',
@@ -4756,8 +4875,8 @@ export default [
           { label: '合水县', value: 621024 },
           { label: '正宁县', value: 621025 },
           { label: '宁县', value: 621026 },
-          { label: '镇原县', value: 621027 },
-        ],
+          { label: '镇原县', value: 621027 }
+        ]
       },
       {
         label: '定西市',
@@ -4769,8 +4888,8 @@ export default [
           { label: '渭源县', value: 621123 },
           { label: '临洮县', value: 621124 },
           { label: '漳县', value: 621125 },
-          { label: '岷县', value: 621126 },
-        ],
+          { label: '岷县', value: 621126 }
+        ]
       },
       {
         label: '陇南市',
@@ -4784,8 +4903,8 @@ export default [
           { label: '西和县', value: 621225 },
           { label: '礼县', value: 621226 },
           { label: '徽县', value: 621227 },
-          { label: '两当县', value: 621228 },
-        ],
+          { label: '两当县', value: 621228 }
+        ]
       },
       {
         label: '临夏回族自治州',
@@ -4798,8 +4917,8 @@ export default [
           { label: '广河县', value: 622924 },
           { label: '和政县', value: 622925 },
           { label: '东乡族自治县', value: 622926 },
-          { label: '积石山保安族东乡族撒拉族自治县', value: 622927 },
-        ],
+          { label: '积石山保安族东乡族撒拉族自治县', value: 622927 }
+        ]
       },
       {
         label: '甘南藏族自治州',
@@ -4812,10 +4931,10 @@ export default [
           { label: '迭部县', value: 623024 },
           { label: '玛曲县', value: 623025 },
           { label: '碌曲县', value: 623026 },
-          { label: '夏河县', value: 623027 },
-        ],
-      },
-    ],
+          { label: '夏河县', value: 623027 }
+        ]
+      }
+    ]
   },
   {
     label: '青海省',
@@ -4831,8 +4950,8 @@ export default [
           { label: '城北区', value: 630105 },
           { label: '湟中区', value: 630106 },
           { label: '大通回族土族自治县', value: 630121 },
-          { label: '湟源县', value: 630123 },
-        ],
+          { label: '湟源县', value: 630123 }
+        ]
       },
       {
         label: '海东市',
@@ -4843,8 +4962,8 @@ export default [
           { label: '民和回族土族自治县', value: 630222 },
           { label: '互助土族自治县', value: 630223 },
           { label: '化隆回族自治县', value: 630224 },
-          { label: '循化撒拉族自治县', value: 630225 },
-        ],
+          { label: '循化撒拉族自治县', value: 630225 }
+        ]
       },
       {
         label: '海北藏族自治州',
@@ -4853,18 +4972,18 @@ export default [
           { label: '门源回族自治县', value: 632221 },
           { label: '祁连县', value: 632222 },
           { label: '海晏县', value: 632223 },
-          { label: '刚察县', value: 632224 },
-        ],
+          { label: '刚察县', value: 632224 }
+        ]
       },
       {
         label: '黄南藏族自治州',
         value: 632300,
         children: [
-          { label: '同仁县', value: 632321 },
+          { label: '同仁市', value: 632301 },
           { label: '尖扎县', value: 632322 },
           { label: '泽库县', value: 632323 },
-          { label: '河南蒙古族自治县', value: 632324 },
-        ],
+          { label: '河南蒙古族自治县', value: 632324 }
+        ]
       },
       {
         label: '海南藏族自治州',
@@ -4874,8 +4993,8 @@ export default [
           { label: '同德县', value: 632522 },
           { label: '贵德县', value: 632523 },
           { label: '兴海县', value: 632524 },
-          { label: '贵南县', value: 632525 },
-        ],
+          { label: '贵南县', value: 632525 }
+        ]
       },
       {
         label: '果洛藏族自治州',
@@ -4886,8 +5005,8 @@ export default [
           { label: '甘德县', value: 632623 },
           { label: '达日县', value: 632624 },
           { label: '久治县', value: 632625 },
-          { label: '玛多县', value: 632626 },
-        ],
+          { label: '玛多县', value: 632626 }
+        ]
       },
       {
         label: '玉树藏族自治州',
@@ -4898,8 +5017,8 @@ export default [
           { label: '称多县', value: 632723 },
           { label: '治多县', value: 632724 },
           { label: '囊谦县', value: 632725 },
-          { label: '曲麻莱县', value: 632726 },
-        ],
+          { label: '曲麻莱县', value: 632726 }
+        ]
       },
       {
         label: '海西蒙古族藏族自治州',
@@ -4911,10 +5030,10 @@ export default [
           { label: '乌兰县', value: 632821 },
           { label: '都兰县', value: 632822 },
           { label: '天峻县', value: 632823 },
-          { label: '大柴旦行政委员会', value: 632825 },
-        ],
-      },
-    ],
+          { label: '大柴旦行政委员会', value: 632857 }
+        ]
+      }
+    ]
   },
   {
     label: '宁夏回族自治区',
@@ -4929,8 +5048,8 @@ export default [
           { label: '金凤区', value: 640106 },
           { label: '永宁县', value: 640121 },
           { label: '贺兰县', value: 640122 },
-          { label: '灵武市', value: 640181 },
-        ],
+          { label: '灵武市', value: 640181 }
+        ]
       },
       {
         label: '石嘴山市',
@@ -4938,8 +5057,8 @@ export default [
         children: [
           { label: '大武口区', value: 640202 },
           { label: '惠农区', value: 640205 },
-          { label: '平罗县', value: 640221 },
-        ],
+          { label: '平罗县', value: 640221 }
+        ]
       },
       {
         label: '吴忠市',
@@ -4949,8 +5068,8 @@ export default [
           { label: '红寺堡区', value: 640303 },
           { label: '盐池县', value: 640323 },
           { label: '同心县', value: 640324 },
-          { label: '青铜峡市', value: 640381 },
-        ],
+          { label: '青铜峡市', value: 640381 }
+        ]
       },
       {
         label: '固原市',
@@ -4960,8 +5079,8 @@ export default [
           { label: '西吉县', value: 640422 },
           { label: '隆德县', value: 640423 },
           { label: '泾源县', value: 640424 },
-          { label: '彭阳县', value: 640425 },
-        ],
+          { label: '彭阳县', value: 640425 }
+        ]
       },
       {
         label: '中卫市',
@@ -4969,10 +5088,10 @@ export default [
         children: [
           { label: '沙坡头区', value: 640502 },
           { label: '中宁县', value: 640521 },
-          { label: '海原县', value: 640522 },
-        ],
-      },
-    ],
+          { label: '海原县', value: 640522 }
+        ]
+      }
+    ]
   },
   {
     label: '新疆维吾尔自治区',
@@ -4989,8 +5108,8 @@ export default [
           { label: '头屯河区', value: 650106 },
           { label: '达坂城区', value: 650107 },
           { label: '米东区', value: 650109 },
-          { label: '乌鲁木齐县', value: 650121 },
-        ],
+          { label: '乌鲁木齐县', value: 650121 }
+        ]
       },
       {
         label: '克拉玛依市',
@@ -4999,8 +5118,8 @@ export default [
           { label: '独山子区', value: 650202 },
           { label: '克拉玛依区', value: 650203 },
           { label: '白碱滩区', value: 650204 },
-          { label: '乌尔禾区', value: 650205 },
-        ],
+          { label: '乌尔禾区', value: 650205 }
+        ]
       },
       {
         label: '吐鲁番市',
@@ -5008,8 +5127,8 @@ export default [
         children: [
           { label: '高昌区', value: 650402 },
           { label: '鄯善县', value: 650421 },
-          { label: '托克逊县', value: 650422 },
-        ],
+          { label: '托克逊县', value: 650422 }
+        ]
       },
       {
         label: '哈密市',
@@ -5017,8 +5136,8 @@ export default [
         children: [
           { label: '伊州区', value: 650502 },
           { label: '巴里坤哈萨克自治县', value: 650521 },
-          { label: '伊吾县', value: 650522 },
-        ],
+          { label: '伊吾县', value: 650522 }
+        ]
       },
       {
         label: '昌吉回族自治州',
@@ -5030,8 +5149,8 @@ export default [
           { label: '玛纳斯县', value: 652324 },
           { label: '奇台县', value: 652325 },
           { label: '吉木萨尔县', value: 652327 },
-          { label: '木垒哈萨克自治县', value: 652328 },
-        ],
+          { label: '木垒哈萨克自治县', value: 652328 }
+        ]
       },
       {
         label: '博尔塔拉蒙古自治州',
@@ -5040,8 +5159,8 @@ export default [
           { label: '博乐市', value: 652701 },
           { label: '阿拉山口市', value: 652702 },
           { label: '精河县', value: 652722 },
-          { label: '温泉县', value: 652723 },
-        ],
+          { label: '温泉县', value: 652723 }
+        ]
       },
       {
         label: '巴音郭楞蒙古自治州',
@@ -5056,7 +5175,8 @@ export default [
           { label: '和静县', value: 652827 },
           { label: '和硕县', value: 652828 },
           { label: '博湖县', value: 652829 },
-        ],
+          { label: '库尔勒经济技术开发区', value: 652871 }
+        ]
       },
       {
         label: '阿克苏地区',
@@ -5070,8 +5190,8 @@ export default [
           { label: '拜城县', value: 652926 },
           { label: '乌什县', value: 652927 },
           { label: '阿瓦提县', value: 652928 },
-          { label: '柯坪县', value: 652929 },
-        ],
+          { label: '柯坪县', value: 652929 }
+        ]
       },
       {
         label: '克孜勒苏柯尔克孜自治州',
@@ -5080,8 +5200,8 @@ export default [
           { label: '阿图什市', value: 653001 },
           { label: '阿克陶县', value: 653022 },
           { label: '阿合奇县', value: 653023 },
-          { label: '乌恰县', value: 653024 },
-        ],
+          { label: '乌恰县', value: 653024 }
+        ]
       },
       {
         label: '喀什地区',
@@ -5098,8 +5218,8 @@ export default [
           { label: '岳普湖县', value: 653128 },
           { label: '伽师县', value: 653129 },
           { label: '巴楚县', value: 653130 },
-          { label: '塔什库尔干塔吉克自治县', value: 653131 },
-        ],
+          { label: '塔什库尔干塔吉克自治县', value: 653131 }
+        ]
       },
       {
         label: '和田地区',
@@ -5112,8 +5232,8 @@ export default [
           { label: '洛浦县', value: 653224 },
           { label: '策勒县', value: 653225 },
           { label: '于田县', value: 653226 },
-          { label: '民丰县', value: 653227 },
-        ],
+          { label: '民丰县', value: 653227 }
+        ]
       },
       {
         label: '伊犁哈萨克自治州',
@@ -5129,8 +5249,8 @@ export default [
           { label: '新源县', value: 654025 },
           { label: '昭苏县', value: 654026 },
           { label: '特克斯县', value: 654027 },
-          { label: '尼勒克县', value: 654028 },
-        ],
+          { label: '尼勒克县', value: 654028 }
+        ]
       },
       {
         label: '塔城地区',
@@ -5138,12 +5258,12 @@ export default [
         children: [
           { label: '塔城市', value: 654201 },
           { label: '乌苏市', value: 654202 },
+          { label: '沙湾市', value: 654203 },
           { label: '额敏县', value: 654221 },
-          { label: '沙湾县', value: 654223 },
           { label: '托里县', value: 654224 },
           { label: '裕民县', value: 654225 },
-          { label: '和布克赛尔蒙古自治县', value: 654226 },
-        ],
+          { label: '和布克赛尔蒙古自治县', value: 654226 }
+        ]
       },
       {
         label: '阿勒泰地区',
@@ -5155,8 +5275,8 @@ export default [
           { label: '福海县', value: 654323 },
           { label: '哈巴河县', value: 654324 },
           { label: '青河县', value: 654325 },
-          { label: '吉木乃县', value: 654326 },
-        ],
+          { label: '吉木乃县', value: 654326 }
+        ]
       },
       {
         label: '自治区直辖县级行政区划',
@@ -5172,9 +5292,10 @@ export default [
           { label: '可克达拉市', value: 659008 },
           { label: '昆玉市', value: 659009 },
           { label: '胡杨河市', value: 659010 },
-        ],
-      },
-    ],
+          { label: '新星市', value: 659011 }
+        ]
+      }
+    ]
   },
   {
     label: '台湾省',
@@ -5195,8 +5316,8 @@ export default [
           { label: '北投区', value: 710109 },
           { label: '内湖区', value: 710110 },
           { label: '南港区', value: 710111 },
-          { label: '文山区', value: 710112 },
-        ],
+          { label: '文山区', value: 710112 }
+        ]
       },
       {
         label: '高雄市',
@@ -5239,8 +5360,8 @@ export default [
           { label: '桃源区', value: 710265 },
           { label: '那玛夏区', value: 710266 },
           { label: '茂林区', value: 710267 },
-          { label: '茄萣区', value: 710268 },
-        ],
+          { label: '茄萣区', value: 710268 }
+        ]
       },
       {
         label: '台南市',
@@ -5282,8 +5403,8 @@ export default [
           { label: '大内区', value: 710366 },
           { label: '山上区', value: 710367 },
           { label: '新市区', value: 710368 },
-          { label: '安定区', value: 710369 },
-        ],
+          { label: '安定区', value: 710369 }
+        ]
       },
       {
         label: '台中市',
@@ -5317,8 +5438,8 @@ export default [
           { label: '清水区', value: 710448 },
           { label: '大甲区', value: 710449 },
           { label: '外埔区', value: 710450 },
-          { label: '大安区', value: 710451 },
-        ],
+          { label: '大安区', value: 710451 }
+        ]
       },
       {
         label: '南投县',
@@ -5336,8 +5457,8 @@ export default [
           { label: '鱼池乡', value: 710623 },
           { label: '信义乡', value: 710624 },
           { label: '竹山镇', value: 710625 },
-          { label: '鹿谷乡', value: 710626 },
-        ],
+          { label: '鹿谷乡', value: 710626 }
+        ]
       },
       {
         label: '基隆市',
@@ -5349,8 +5470,8 @@ export default [
           { label: '中山区', value: 710704 },
           { label: '安乐区', value: 710705 },
           { label: '暖暖区', value: 710706 },
-          { label: '七堵区', value: 710707 },
-        ],
+          { label: '七堵区', value: 710707 }
+        ]
       },
       {
         label: '新竹市',
@@ -5358,16 +5479,16 @@ export default [
         children: [
           { label: '东区', value: 710801 },
           { label: '北区', value: 710802 },
-          { label: '香山区', value: 710803 },
-        ],
+          { label: '香山区', value: 710803 }
+        ]
       },
       {
         label: '嘉义市',
         value: 710900,
         children: [
           { label: '东区', value: 710901 },
-          { label: '西区', value: 710902 },
-        ],
+          { label: '西区', value: 710902 }
+        ]
       },
       {
         label: '新北市',
@@ -5401,8 +5522,8 @@ export default [
           { label: '八里区', value: 711155 },
           { label: '淡水区', value: 711156 },
           { label: '三芝区', value: 711157 },
-          { label: '石门区', value: 711158 },
-        ],
+          { label: '石门区', value: 711158 }
+        ]
       },
       {
         label: '宜兰县',
@@ -5419,8 +5540,8 @@ export default [
           { label: '五结乡', value: 711222 },
           { label: '冬山乡', value: 711223 },
           { label: '苏澳镇', value: 711224 },
-          { label: '南澳乡', value: 711225 },
-        ],
+          { label: '南澳乡', value: 711225 }
+        ]
       },
       {
         label: '新竹县',
@@ -5438,8 +5559,8 @@ export default [
           { label: '横山乡', value: 711323 },
           { label: '尖石乡', value: 711324 },
           { label: '北埔乡', value: 711325 },
-          { label: '峨眉乡', value: 711326 },
-        ],
+          { label: '峨眉乡', value: 711326 }
+        ]
       },
       {
         label: '桃园市',
@@ -5457,8 +5578,8 @@ export default [
           { label: '大溪区', value: 711423 },
           { label: '复兴区', value: 711424 },
           { label: '大园区', value: 711425 },
-          { label: '芦竹区', value: 711426 },
-        ],
+          { label: '芦竹区', value: 711426 }
+        ]
       },
       {
         label: '苗栗县',
@@ -5481,8 +5602,8 @@ export default [
           { label: '铜锣乡', value: 711533 },
           { label: '三义乡', value: 711534 },
           { label: '西湖乡', value: 711535 },
-          { label: '卓兰镇', value: 711536 },
-        ],
+          { label: '卓兰镇', value: 711536 }
+        ]
       },
       {
         label: '彰化县',
@@ -5513,8 +5634,8 @@ export default [
           { label: '二林镇', value: 711749 },
           { label: '大城乡', value: 711750 },
           { label: '芳苑乡', value: 711751 },
-          { label: '二水乡', value: 711752 },
-        ],
+          { label: '二水乡', value: 711752 }
+        ]
       },
       {
         label: '嘉义县',
@@ -5537,8 +5658,8 @@ export default [
           { label: '大林镇', value: 711933 },
           { label: '溪口乡', value: 711934 },
           { label: '义竹乡', value: 711935 },
-          { label: '布袋镇', value: 711936 },
-        ],
+          { label: '布袋镇', value: 711936 }
+        ]
       },
       {
         label: '云林县',
@@ -5563,8 +5684,8 @@ export default [
           { label: '水林乡', value: 712137 },
           { label: '口湖乡', value: 712138 },
           { label: '四湖乡', value: 712139 },
-          { label: '元长乡', value: 712140 },
-        ],
+          { label: '元长乡', value: 712140 }
+        ]
       },
       {
         label: '屏东县',
@@ -5602,8 +5723,8 @@ export default [
           { label: '车城乡', value: 712463 },
           { label: '牡丹乡', value: 712464 },
           { label: '恒春镇', value: 712465 },
-          { label: '满州乡', value: 712466 },
-        ],
+          { label: '满州乡', value: 712466 }
+        ]
       },
       {
         label: '台东县',
@@ -5624,8 +5745,8 @@ export default [
           { label: '金峰乡', value: 712529 },
           { label: '大武乡', value: 712530 },
           { label: '达仁乡', value: 712531 },
-          { label: '太麻里乡', value: 712532 },
-        ],
+          { label: '太麻里乡', value: 712532 }
+        ]
       },
       {
         label: '花莲县',
@@ -5643,8 +5764,8 @@ export default [
           { label: '万荣乡', value: 712625 },
           { label: '玉里镇', value: 712626 },
           { label: '卓溪乡', value: 712627 },
-          { label: '富里乡', value: 712628 },
-        ],
+          { label: '富里乡', value: 712628 }
+        ]
       },
       {
         label: '澎湖县',
@@ -5655,10 +5776,10 @@ export default [
           { label: '望安乡', value: 712709 },
           { label: '七美乡', value: 712710 },
           { label: '白沙乡', value: 712711 },
-          { label: '湖西乡', value: 712712 },
-        ],
-      },
-    ],
+          { label: '湖西乡', value: 712712 }
+        ]
+      }
+    ]
   },
   {
     label: '香港特别行政区',
@@ -5685,10 +5806,10 @@ export default [
           { label: '屯门区', value: 810115 },
           { label: '大埔区', value: 810116 },
           { label: '荃湾区', value: 810117 },
-          { label: '元朗区', value: 810118 },
-        ],
-      },
-    ],
+          { label: '元朗区', value: 810118 }
+        ]
+      }
+    ]
   },
   {
     label: '澳门特别行政区',
@@ -5701,9 +5822,9 @@ export default [
           { label: '澳门半岛', value: 820101 },
           { label: '凼仔', value: 820102 },
           { label: '路凼城', value: 820103 },
-          { label: '路环', value: 820104 },
-        ],
-      },
-    ],
-  },
-];
+          { label: '路环', value: 820104 }
+        ]
+      }
+    ]
+  }
+]

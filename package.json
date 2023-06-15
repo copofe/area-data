@@ -1,7 +1,7 @@
 {
   "name": "area-data",
   "version": "1.0.0",
-  "description": "微信省市区数据",
+  "description": "省市区数据",
   "author": "copofe <me@shinji.me>",
   "scripts": {
     "build": "node build.js"

@@ -1,7 +1,7 @@
 {
   "name": "@copofe/vant-area-data",
   "version": "1.0.5",
-  "description": "微信省市区数据, vant 组件格式",
+  "description": "省市区数据, vant 组件格式",
   "author": "copofe <me@shinji.me>",
   "type": "module",
   "license": "ISC",
