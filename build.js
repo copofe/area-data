@@ -44,5 +44,5 @@ const vantData = { province_list, city_list, county_list };
 
 fs.writeFileSync(
   process.cwd() + '/packages/vant/index.js',
-  'export default ' + util.inspect(vantData, { depth: null, maxArrayLength: null, showHidden: null })
+  'export default ' + util.inspect(vantData, { depth: null, maxArrayLength: null })
 );
