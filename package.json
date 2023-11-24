@@ -9,6 +9,6 @@
   "type": "module",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^8.0.0"
   }
 }
